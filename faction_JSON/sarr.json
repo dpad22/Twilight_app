@@ -1,0 +1,36 @@
+[
+    {
+        "faction": "The Clan of Saar",
+        "image": "https://pbs.twimg.com/media/DTsauHxW4AEPZ0J.jpg",
+        "abilities": ["Scavenge: After you gain control of a planet, gain 1 trade good.", "Nomadic: You can score objectives even if you do not control the planets in your home system."],
+        "promissory_note":"Ragh's Call: After you commit 1 or more units to land on a planet: Remove all of the Saar player's ground forces from that planet and place them on a planet controlled by the Saar player. Then return this card to the Saar player.",
+        "technologies": "Chaos Mapping: Other players cannot activate asteroid fields that contain 1 or more of your ships. At the start of your turn during the action phase, you may produce 1 unit in a system that contains at least 1 of your units that has Production. Requirements: Blue",
+        "unit_upgrades":[
+            {
+            "name": "Floating Factory I",
+            "move": 1,
+            "capacity": 4,
+            "abilities": ["Production 5.", "This unit is placed in a space area instead of on a planet.  This unit can move and retreat as if it were a ship.  If this unit is blockaded, it is destroyed."],
+            "prerequisites": "none"
+            },
+            {
+            "name": "Floating Factory II",
+            "move": 2,
+            "capacity": 5,
+            "abilities": ["Production 7.", "This unit is placed in a space area instead of on a planet.  This unit can move and retreat as if it were a ship.  If this unit is blockaded, it is destroyed."],
+            "prerequisites": "2 Yellow"
+            }
+        ],
+        "flagship": {
+            "name": "Son of Ragh",
+            "cost": 8,
+            "combat": "5x2",
+            "move": 1,
+            "capacity": 3,
+            "abilities": ["Sustain Damage", "Anit-Fighter Barrage 6(x4)"]
+        },
+        "government": ["Admiralty, Objective"],
+        "quote": "O Lisis, you whose fate is forever carved into the backs of the weary. Your spectre is all we see.",
+        "lore": "Few historians dispute that the Saar were the first of the known races to venture into space but it remains unknown wether it was need or curiosity that drove the otherwise primitive people into such exploration. Their peaceful ways and dispersed civilization never promulgated them to official Lazax recognition. Some scholars have thus called them 'the forgotten race.'The tale of the Saar is a tragic one. Historical records are awash with accounts of deliberate planetary expulsions, even massacres of Saar settlements found on planets colonized by the other races. The musical Saar often chant the “Lay of Lisis” in memory of the largest known Saar colony prior to Ragh’s Call. After the planet of Lisis was annexed by the Sardakk N’orr no word came from the great Saar settlement there again. They simply disappeared. In their memory most Saar females wear a caefully carved silver pendant called the Y’ouf Lisis, or the “Tear of Lisis.” During the Houw Shanan, the Saar Holy Day, such pendants are given to young Saar women while Saar cubs throw beetles and insects into a raging fire and the elders howl at the starts with a longing rage. Before the Call began, the Saar were scattered across the galaxy existing at the mercy of other races. On dozens of worlds Saar could be found living in slums and sublevel cities working in the most noxious and despicable industries and making slim sustenance from the scraps of other civilizations. Considered unclean and barely sentient by other races, Saar life was cheap and subject to little justice. With hard work, polluted environments and no access to proper medical care, the bitter lives of the Saar were often short. It was in the hopeless middle period of the Dark Years that a single Saar, Ragh Gavar, would forever change the destiny of his people. Ragh made his living as the captain of an old scrap metal freighter that flew between Xxehan and Sol, a route that had been in his family for centuries. Despite being a capable trader, Ragh’s passion lay in poetry and the imagination of the pen, in the creation of succinct writings of hope scrawled on paper scraps during long trade hauls. At his ports of call other Saar would often congregate before his loading doors so that they might hear his latest versees and tales. Many of his listeners began to call him the “Captian of Hope.” Yet one year, Ragh did not arrivae at his destination. His rusty navigation system had finally failed and Ragh’s ship was lost among the stars. Floatingin unknown space, as his ancestors had once done so bravely before him, Ragh prayed that the One Between the Stars and would see him and his small crew home. The Call began a few years after Ragh Gavar’s disappearance. Throughout the great expansees of the galaxy every Saar began to feel within himself an unyielding longing for the stars and especially for a certain distant place beyond known space. Early followers of the Call found its origin in the great asteroid field of Jorun and here found a small but blossuming Saar colony on the two gigantic asteroids of Ragh and Lisis II. As the Call continued, Saar brethern from across the galaxy continued to arrive at Jorun, together building the infrastructure of civilization and hope for a lost race. Years before, Ragh’s ship had crashed on Jorun. Miraculously, he and his crew had survived and with great wonder they soon discovered the mineral richness, frozen water, atmospheric cavers and strange fauna that lay hidden within the endless ocean of rock. Yet Ragh was restless in his new home. it is told that the Captain awoke one night from a dream and then bade his crewmates farewell, disappearing into the great network of caverns that lies within the asteroid named after him. Ragh Gavar was never found or heard from again. but less then a month after his disappearance, the Call began. Saar mystics believe that the Captain of Hopes has joined the One Between the Sars and that he atlast won forgiveness for the Saar and has called them to relieve their suffering. They believe that Ragh’s Call has brough them home, that the life giving rocks surrounding them are the remnants of the ancient Saar planet of origin and that even in death it is giving its people a second life. For centuries the unified and passionate Saar people have built a formidable home and civilisation in the Jorun asteroid field. The Saar have finally found home and they have found that they are strong. "
+    }
+]
