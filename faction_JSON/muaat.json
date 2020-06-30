@@ -2,9 +2,13 @@
     {
         "faction": "The Embers of Muaat",
         "image": "https://vignette.wikia.nocookie.net/twilight-imperium-worlds/images/d/da/Embers_of_Muaat.PNG/revision/latest?cb=20181213041953",
-        "abilities": ["Star Forge: ACTION: Spend 1 token from your strategy pool to place either 2 fighters or 1 destroyer from your reinforcements in a system that contains 1 or more of your war suns.", "Gashlai Physiology: Your ships can move through supernovas."],
+        "abilities": {
+            "Star_Forge": "Star Forge: ACTION: Spend 1 token from your strategy pool to place either 2 fighters or 1 destroyer from your reinforcements in a system that contains 1 or more of your war suns.",
+            "Gashlai_Physiology": "Gashlai Physiology: Your ships can move through supernovas."
+        },
         "promissory_note":"Fires of the Gashlai:ACTION: Remove 1 token from the Muaat player's fleet pool and return it to his reinforcements. Then, gain your war sun unit upgrade technology card. Then return this card to the Muaat player.",
-        "technologies": ["Magmus Reactor: Your ships can move into supernovas. Requirements: Red","After 1 or more of your units use Production in a system that either contains a war sun or is adjacent to a supernova, gain 1 trade good. Requirements:2 Red"],
+        "technologies": [
+            "Magmus Reactor: Your ships can move into supernovas, After 1 or more of your units use Production in a system that either contains a war sun or is adjacent to a supernova, gain 1 trade good. Requirements:2 Red"],
         "unit_upgrades":[
             {
             "name": "Prototype War Sun I",
@@ -12,7 +16,7 @@
             "combat": "3x3",
             "move": 1,
             "capacity": 6,
-            "abilities": ["Sustain Damage","Bombardment 3 (x3)", "Other players' units in this system lose PLANETARY SHIELD."],
+            "abilities": ["Sustain Damage", "Bombardment 3 (x3)", "Other players' units in this system lose PLANETARY SHIELD."],
             "prerequisites": "none"
             },
             {
@@ -21,7 +25,7 @@
             "combat": "3x3",
             "move": 3,
             "capacity": 6,
-            "abilities": ["Sustain Damage","Bombardment 3 (x3)", "Other players' units in this system lose PLANETARY SHIELD."],
+            "abilities": ["Sustain Damage", "Bombardment 3 (x3)", "Other players' units in this system lose PLANETARY SHIELD."],
             "prerequisites": "3 Red. 1 Yellow"
             }
         ],
@@ -34,7 +38,7 @@
             "abilities": ["Sustain Damage", "ACTION: Spend 1 token from your strategy pool to place 1 cruiser in this unit's system."]
         },
         "government": ["Tribunal, Military"],
-        "quote": "No longer will the Gashlai be shackled by your whims. Be extinguished now, and know that you have lost",
-        "lore": "It was during the early years of the Age of Dusk that Jol Nar exploreres came upon the volcanic planet of Muaat. Scouting for resources beyond the Mahact plateau the explorers were amazed by the mineral wealth of their discovery but they were truly awestruck by the extraordinary qualities of the plenets fiery inhabitants, the Gashlai. The Gashlai were unlike any race known to the Jol Nar; sentient beings with bodies slowly consubed by fiery heat. After their conception, Gashlai cocooning process somehow enables conversion of engery into mass – a process hinted at by scientific theory, but forever though unattainable on a subatomic scale. The Jol Nar beefited greatly from Muaat’s resource, yet they were frustrated in their attempts to replicate the Gashlai cocooning process. Instead the Gashlai proved useful as slave labour, as the Headmasters transformed the orbit of Muaat into a massive shipyard for their navy. It was here, at Muaat shipyards, that the construction of secret Jol Nar superweapon began. The Gashlai suffered under their enslavement by the Jol Nar, but events of the earlly Twilight Wars would dramatically change their fortune. Just after the Twilight Wars erupted, a Jol Nar expedition party searching for mineral deposits on Muaat became infected by an organism in the Doolak Mountains. The infection developed into a disease later know as the Doolak plague. The covert, yet frequent, traffic between Muaat and the Garian star system allowed for the spread of the virus to the Jol Nar home worlds. The plague became one of the greatest disasters in Jol Nar history and only the early research of Gashlai biology allowed the Headmasters to devise a vaccine before the entire Jol nar population was destroyed. Before the Jol Nar could fully recover from this disaster, their military offensive collasped and soon the Headmasters would face ruthless advance of the Sardakk N’orr. As the Jol Nar navy retreated the Headmasters were forced to call forth their secret weapon at Muaat. This weapon – an enormous battle vessel called a “War Sun” – was not yet entirely complete but with their fates clinging to the defenses of the Saudor system the Headmasters had no choice but to bring it to bear against the enemy. As the War Sun left its Muaat moorings and as the majority of the remaining Jol Nar personnel left with it, the Gashlai finally carved their own destiny. Having long schemed against their enslavers they incinerated the remaining Jol Nar in the system capturing the shipyards and every available scientific document left behind by their hated oppressors. Not long after their costly victory at Saudor, the Jol Nar sought to return to their colony at Muaat but found that all communications with the system had been severed. Exploratory ships sent to Muaat would not return. Though the Headmasterssuspected what might have taken place on their old colony, they were unable to return there in force again. Throughout the long Dark Years, the Gashlai prospered. Clad in Ember suits, special body armor shielding the Gashlai from cold and others from their lethal heat, a large assembly of Gashlai envoys ahve recently arrived at Mecatol Rex, demanding recognition and representation. The High Fire Warden Sushon Azh has simultaneously sent forth Gashlai ambassadors to all the great races in the distinctive gold-bronze frigates of Gashlai. Yet one such ambassador did not arrive in a frigate. As the Gashlai ambassador assigned to the Jol Nar sailed past the Garian star and began his approach to Jol, the Headmasters paled in fear; for their representative arrived in a War Sun, a copy of their own ancient designs. The message was not wasted on the Headmasters. Their former slaves had become formidable and they had not fogotten or forgiven the past. Led by the Fire Wardens, the Gashlai are resolved to never be enslaved again. insdie their golden Ember suitsthey burn with ambition. The Jol Nar fear what the rest of the galaxy is about to learn: that the Embers of Muaat intend to bring their fire to the furthest reaches of space, burning the unwilling into submission."
+        "quote": "No longer will the Gashlai be shackled by your whims. Be extinguished now, and know that you have lost"
+        
     }
 ]
