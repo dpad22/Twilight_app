@@ -43,7 +43,7 @@
         "promissory_note":"War Funding: At the start of a round of space combat: The Letnev player loses 2 trade goods. During this combat round, re-roll any number of your dice. Then, return this card to the Letnev player.",
         "technologies": {
             "L4_Disruptors": "During an invasion, units cannot use SPACE CANNON against your units. Requirements: Yellow",
-            "Non-Euclidean_Shielding": "When 1 of your units uses SUSTAIN DAMAGE, cancel 2 hits instead of 1. Requirements: 2 Red"
+            "Non_Euclidean_Shielding": "When 1 of your units uses SUSTAIN DAMAGE, cancel 2 hits instead of 1. Requirements: 2 Red"
         },
         "flagship": {
             "name": "Arc Secundus",
