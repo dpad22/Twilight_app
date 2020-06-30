@@ -3,12 +3,12 @@
         "faction": "The Embers of Muaat",
         "image": "https://vignette.wikia.nocookie.net/twilight-imperium-worlds/images/d/da/Embers_of_Muaat.PNG/revision/latest?cb=20181213041953",
         "abilities": {
-            "Star_Forge": "Star Forge: ACTION: Spend 1 token from your strategy pool to place either 2 fighters or 1 destroyer from your reinforcements in a system that contains 1 or more of your war suns.",
-            "Gashlai_Physiology": "Gashlai Physiology: Your ships can move through supernovas."
+            "Star_Forge": "ACTION: Spend 1 token from your strategy pool to place either 2 fighters or 1 destroyer from your reinforcements in a system that contains 1 or more of your war suns.",
+            "Gashlai_Physiology": "Your ships can move through supernovas."
         },
-        "promissory_note":"Fires of the Gashlai:ACTION: Remove 1 token from the Muaat player's fleet pool and return it to his reinforcements. Then, gain your war sun unit upgrade technology card. Then return this card to the Muaat player.",
+        "promissory_note":"ACTION: Remove 1 token from the Muaat player's fleet pool and return it to his reinforcements. Then, gain your war sun unit upgrade technology card. Then return this card to the Muaat player.",
         "technologies": [
-            "Magmus Reactor: Your ships can move into supernovas, After 1 or more of your units use Production in a system that either contains a war sun or is adjacent to a supernova, gain 1 trade good. Requirements:2 Red"],
+            "Your ships can move into supernovas, After 1 or more of your units use Production in a system that either contains a war sun or is adjacent to a supernova, gain 1 trade good. Requirements:2 Red"],
         "unit_upgrades":[
             {
             "name": "Prototype War Sun I",

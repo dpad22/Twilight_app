@@ -3,10 +3,10 @@
         "faction": "The Federation of Sol",
             "image": "https://external-preview.redd.it/6tFumLxWUkUQT3msuf9qmg0QQgPg-XKRIa4u-SZZYA8.jpg?auto=webp&s=cef6b628202ea9f563e481838255104441921556",
             "abilities": {
-                "Orbital_Drop": "Orbital Drop: ACTION: Spend 1 token from your strategy pool to place 2 infantry from your reinforcements on 1 planet you control.",
-                "Versatile": "Versatile: When you gain command tokens during the status phase, gain 1 additional command token."
+                "Orbital_Drop": "ACTION: Spend 1 token from your strategy pool to place 2 infantry from your reinforcements on 1 planet you control.",
+                "Versatile": "When you gain command tokens during the status phase, gain 1 additional command token."
             },
-            "promissory_note":"Military Support: At the start of the Sol player's turn: Remove 1 token from the Sol player's strategy pool, if able, and return it to his reinforcements. Then, you may place 2 infantry from your reinforcements on any planet you control. Then return this card to the Sol player.",
+            "promissory_note":"At the start of the Sol player's turn: Remove 1 token from the Sol player's strategy pool, if able, and return it to his reinforcements. Then, you may place 2 infantry from your reinforcements on any planet you control. Then return this card to the Sol player.",
             
             "flagship": {
                 "name": "Genesis",

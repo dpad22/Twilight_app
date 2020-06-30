@@ -3,11 +3,11 @@
         "faction": "The Clan of Saar",
         "image": "https://pbs.twimg.com/media/DTsauHxW4AEPZ0J.jpg",
         "abilities": {
-            "Scavenge": "Scavenge: After you gain control of a planet, gain 1 trade good.",
-            "Nomadic": "Nomadic: You can score objectives even if you do not control the planets in your home system."
+            "Scavenge": "After you gain control of a planet, gain 1 trade good.",
+            "Nomadic": "You can score objectives even if you do not control the planets in your home system."
         },
-        "promissory_note":"Ragh's Call: After you commit 1 or more units to land on a planet: Remove all of the Saar player's ground forces from that planet and place them on a planet controlled by the Saar player. Then return this card to the Saar player.",
-        "technologies": "Chaos Mapping: Other players cannot activate asteroid fields that contain 1 or more of your ships. At the start of your turn during the action phase, you may produce 1 unit in a system that contains at least 1 of your units that has Production. Requirements: Blue",
+        "promissory_note":"After you commit 1 or more units to land on a planet: Remove all of the Saar player's ground forces from that planet and place them on a planet controlled by the Saar player. Then return this card to the Saar player.",
+        "technologies": "Other players cannot activate asteroid fields that contain 1 or more of your ships. At the start of your turn during the action phase, you may produce 1 unit in a system that contains at least 1 of your units that has Production. Requirements: Blue",
         "unit_upgrades":[
             {
             "name": "Floating Factory I",

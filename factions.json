@@ -3,7 +3,7 @@
         "faction": "The Arborec",
         "image": "https://miro.medium.com/max/361/1*zTAqWIxzpC_Zde_9Y5B4FA.jpeg",
         "abilities": ["Your space docks cannot produce infantry.  At the start of the status phase , place 1 infantry from your reinforcements on any planet you control."],
-        "promissory_note":"Stymie: ACTION: Place this card face up in your play area. While this card is in your play area, the Arborec player cannot produce units in or adjacent to non-home systems that contain 1 or more of your units. If you activate a system that contains 1 or more of the Arborec player's units, return this card to the Arborec player.",
+        "promissory_note":"ACTION: Place this card face up in your play area. While this card is in your play area, the Arborec player cannot produce units in or adjacent to non-home systems that contain 1 or more of your units. If you activate a system that contains 1 or more of the Arborec player's units, return this card to the Arborec player.",
         "technologies": "At the end of the status phase , you may remove any number of infantry from planets you control and place them on 1 or more planets you control in the same or adjacent systems. Requirements: 2 Green",
         "unit_upgrades":[
             {
@@ -40,7 +40,7 @@
             "Munitions_Reserves": "At the start of each round of space combat, you may spend 2 trade goods;  you may re-roll any number of your dice during that combat round.",
             "Armada": "The maximum number of non-fighter ships you can have in each system is equal to 2 more than the number of tokens in your fleet pool."
         },
-        "promissory_note":"War Funding: At the start of a round of space combat: The Letnev player loses 2 trade goods. During this combat round, re-roll any number of your dice. Then, return this card to the Letnev player.",
+        "promissory_note":"At the start of a round of space combat: The Letnev player loses 2 trade goods. During this combat round, re-roll any number of your dice. Then, return this card to the Letnev player.",
         "technologies": {
             "L4_Disruptors": "During an invasion, units cannot use SPACE CANNON against your units. Requirements: Yellow",
             "NonEuclideanShielding": "When 1 of your units uses SUSTAIN DAMAGE, cancel 2 hits instead of 1. Requirements: 2 Red"
@@ -190,7 +190,7 @@
                     "Slipstream": "During your tactical actions, apply +1 to the move value of each of your ships that starts its movement in your home system  or in a system that contains either an alpha or beta wormhole.",
                     "Creuss_Gate": "When you create the game board, place the Creuss Gate (tile 17) where your home system would normally be placed. The Creuss Gate system is not a home system. Then, place your home system (tile 51) in your play area."
                 },
-                "promissory_note":"Creuss Iff: At the start of your turn during the action phase: Place or move a Creuss wormhole token into either a system that contains a planet you control or a non-home system that does not contain another player's ships. Then, return this card to the Creuss player.",
+                "promissory_note":"At the start of your turn during the action phase: Place or move a Creuss wormhole token into either a system that contains a planet you control or a non-home system that does not contain another player's ships. Then, return this card to the Creuss player.",
                 "technologies": {
                     "Wormhole_Generator": "Wormhole Generator: At the start of the status phase, place or move a Creuss wormhole token into either a system that contains a planet you control or a non-home system that does not contain another player's ships. Requirements: 2 Blue",
                     "Dimensional_Splicer": "Dimensional Splicer: At the start of space combat in a system that contains a wormhole and 1 or more of your ships, you may produce 1 hit and assign it to 1 of your opponent's ships. Requirements: 1 Red"

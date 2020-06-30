@@ -2,9 +2,9 @@
     {
         "faction": "The Arborec",
         "image": "https://miro.medium.com/max/361/1*zTAqWIxzpC_Zde_9Y5B4FA.jpeg",
-        "abilities": ["Mitosis: Your space docks cannot produce infantry.  At the start of the status phase , place 1 infantry from your reinforcements on any planet you control."],
-        "promissory_note":"Stymie: ACTION: Place this card face up in your play area. While this card is in your play area, the Arborec player cannot produce units in or adjacent to non-home systems that contain 1 or more of your units. If you activate a system that contains 1 or more of the Arborec player's units, return this card to the Arborec player.",
-        "technologies": "Bioplasmosis: At the end of the status phase , you may remove any number of infantry from planets you control and place them on 1 or more planets you control in the same or adjacent systems. Requirements: 2 Green",
+        "abilities": ["Your space docks cannot produce infantry.  At the start of the status phase , place 1 infantry from your reinforcements on any planet you control."],
+        "promissory_note":"ACTION: Place this card face up in your play area. While this card is in your play area, the Arborec player cannot produce units in or adjacent to non-home systems that contain 1 or more of your units. If you activate a system that contains 1 or more of the Arborec player's units, return this card to the Arborec player.",
+        "technologies": "At the end of the status phase , you may remove any number of infantry from planets you control and place them on 1 or more planets you control in the same or adjacent systems. Requirements: 2 Green",
         "unit_upgrades":[
             {
             "name": "Letani Warrior",
