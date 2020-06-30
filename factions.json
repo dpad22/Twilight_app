@@ -273,5 +273,42 @@
                         },
                         "government": ["Table of Captains, Expansionist"],
                         "quote": "One people. One mind. One destiny. We will rise above the pit they have thrown us in."
+                    },
+                    {
+                        "faction": "The Naalu Collective",
+                        "image": "https://i.imgur.com/a1bnnfb.jpg",
+                        "abilities": {
+                            "Telepathic": "At the end of the strategy phase, place the Naalu '0' token on your strategy card; you are first in initiative order.",
+                            "Foresight": "After another player moves ships into a system that contains 1 or more of your ships, you may place 1 token from your strategy pool in an adjacent system that does not contain another player's ships;  move your ships from the active system into that system."
+                        },
+                        "promissory_note":"At the end of the strategy phase: Place this card face-up in your play area and place the Naalu '0' token on your strategy card;  you are first in the initiative order. The Naalu player cannot use his TELEPATHIC faction ability during this game round. Return this card to the Naalu player at the end of the status phase.",
+                        "technologies": "After another player activates a system that contains 1 or more of your ships, that player removes 1 token from his fleet pool and returns it to his reinforcements. Requirements: 3 Green",
+                        "unit_upgrades":[
+                            {
+                            "name": "Hybrid Crystal Fighter I",
+                            "cost": "1x2",
+                            "combat": 8,
+                            "prerequisites": "none"
+                            },
+                            {
+                            "name": "Hybrid Crystal Fighter II",
+                            "cost": "1x2",
+                            "combat": 7,
+                            "move": 2,
+                            "abilities": ["This unit may move without being transported.  Each fighter in excess of your ships' capacity counts as 1/2 of a ship against your fleet pool."],
+                            "prerequisites": "1 Green/ 1 Blue"
+                            }
+                        ],
+                        "flagship": {
+                            "name": "Matriarch",
+                            "cost": 8,
+                            "combat": "9x2",
+                            "move": 1,
+                            "capacity": 6,
+                            "abilities": ["Sustain Damage", "During an invasion in this system, you may commit fighters to planets as if they were ground forces. When combat ends, return those units to the space area."]
+                        },
+                        "government": ["Collective, Military"],
+                        "quote": "You insult me ssskinling. Ze monstrosity you suggest-ze Druua, we are not capable of such cruelty. Purge zis madness from your mind and leave zis world."
+                        
                     }
 ]
