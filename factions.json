@@ -144,7 +144,7 @@
     {
         "faction": "The Federation of Sol",
             "image": "https://external-preview.redd.it/6tFumLxWUkUQT3msuf9qmg0QQgPg-XKRIa4u-SZZYA8.jpg?auto=webp&s=cef6b628202ea9f563e481838255104441921556",
-            "abilities": ["MOrbital Drop: ACTION: Spend 1 token from your strategy pool to place 2 infantry from your reinforcements on 1 planet you control.","Versatile: When you gain command tokens during the status phase, gain 1 additional command token."],
+            "abilities": ["Orbital Drop: ACTION: Spend 1 token from your strategy pool to place 2 infantry from your reinforcements on 1 planet you control.","Versatile: When you gain command tokens during the status phase, gain 1 additional command token."],
             "promissory_note":"Military Support: At the start of the Sol player's turn: Remove 1 token from the Sol player's strategy pool, if able, and return it to his reinforcements. Then, you may place 2 infantry from your reinforcements on any planet you control. Then return this card to the Sol player.",
             
             "flagship": {
@@ -158,5 +158,79 @@
             "government": ["Federation, Expansionist"],
             "quote": "Our enemies consider us children. They consider us weak. Show them. Show them what the children of Jord can do.",
             "lore": "Nestled in the third orbit of the Sol system lies Jord, the ancestral home of the human race. Few planets can rival Jord’s diversity of climates, seasons and ecology. Much of this wealth is attributed to its enormous moon, which causes dramatic tidal motions in Jor’s oceans, which is thought to be the impetus of its diverse life and weather patterns. Much of Jord’s orbit, as well as its moon, is crowded with stellar traffic from the orbital and lunar space stations. Military ships of the line, bearing the distinctive Sol symbol are often moored to the bulky military platforms in Jord’s orbit, or to the fleetbase Churchill Prima that orbits the reddish fourth planet of the system. The humans themselves represent the most numerous and most diverse species of the galaxy. Since the discovery of the mass-drive, humans have left Jord to explore and they continue to explore the distant corners of space. Humans can be found in all corners of the galaxy and seem to demonstrate the greatest variation in intellect and application of skills. Human colonies and settlements can be found everywhere as can human servants, traders, cartographers, explorers, mercenaries, scholars, construction crews, smugglers, scientists, diplomats, ect. It is commonly recognized among galactic historians that it has been the diversified skills of the human race that has been the determining factor in it avoiding annihilation or extinction. Of the untold billions of humans that dwell across the galaxy, all of whose ancestors once migrated from the Sol system, most feel no allegiance or kinship to the Sol Federation or the humans of Jord. Some feel a traditional friendship, while a few remain loyal to Sol and its policies. Being the last civilization to be admitted into the imperial council, it is ironic that Sol was the first to openly declare war against the failing empire. It was a Sol fleet that fired the first shot at the Letnev blockade of the Quann wormhole, escalating the minor conflict into the full scale galactic war known as the Twilight Wars. The Sol Federation of Nations is governed by the bi-annually elected High Minister who has the executive control of the economy, budget and Sol Military. The executive powers of the High Minister are held in check by three distinct governing houses: The House of Law, The House of the People and The House of Industry. The four governing bodies of the Federation are all centrally located in the massive metropolis of New Moscow, a bustling center of politics, trade and high culture. The current High Minister, Juan Salvador Tao, is preparing for a new age that he knows is rapidly evolving before him. He is eager to expand the official colonization of Sol once more, especially to the old colonies of Centauri, Gral and Quann. He knows that the balance of power is shifting and that the universe will soon once again be governed under one empire. The High Minister will make sure that his Federation will prevail during the coming power struggle and inevitable war. Already the Sol fleet awaits his command to strike nearby systems. Soon the human destiny will be fulfilled and the distant suns theirs to command."
-        }
+        },
+        {
+            "faction": "The Ghosts of Creuss",
+                "image": "https://www.fantasyflightgames.com/media/ffg_content/Twilight%20Imperium%203/shards-of-the-throne/preview-3/the-ghosts-of-creuss.png",
+                "abilities": ["Quantum Entanglement: You treat all systems that contain either an alpha or beta wormhole as adjacent to each other. Game effects cannot prevent you from using this ability.","Slipstream: During your tactical actions, apply +1 to the move value of each of your ships that starts its movement in your home system  or in a system that contains either an alpha or beta wormhole.","Creuss Gate: When you create the game board, place the Creuss Gate (tile 17) where your home system would normally be placed. The Creuss Gate system is not a home system. Then, place your home system (tile 51) in your play area."],
+                "promissory_note":"Creuss Iff: At the start of your turn during the action phase: Place or move a Creuss wormhole token into either a system that contains a planet you control or a non-home system that does not contain another player's ships. Then, return this card to the Creuss player.",
+                "technologies": ["Wormhole Generator: At the start of the status phase, place or move a Creuss wormhole token into either a system that contains a planet you control or a non-home system that does not contain another player's ships. Requirements: 2 Blue", "Dimensional Splicer: At the start of space combat in a system that contains a wormhole and 1 or more of your ships, you may produce 1 hit and assign it to 1 of your opponent's ships. Requirements: 1 Red"],
+                
+                "flagship": {
+                    "name": "Hil Colish",
+                    "cost": 8,
+                    "combat": "5",
+                    "move": 1,
+                    "capacity": 3,
+                    "abilities": ["Sustain Damage", "This ship's system contains a delta wormhole. During movement, this ship may move before or after your other ships"]
+                },
+                "government": ["Unknown, Expansionist"],
+                "quote": "We to not mean to offend the honored ambassador. We mean only to imply that should his ship attempt to pass through the gate, it will not return."
+            },
+            {
+                "faction": "The L1Z1X Mindnet",
+                    "image": "https://vignette.wikia.nocookie.net/twilight-imperium-worlds/images/8/8d/L1Z1X.PNG/revision/latest/top-crop/width/360/height/450?cb=20181213125810",
+                    "abilities": ["Assimilate: When you gain control of a planet, replace each PDS and space dock that is on that planet with a matching unit from your reinforcements.","Harrow: After each round of ground combat, your ships in the active system may use their Bombardment abilities against your opponent's ground forces on the planet."],
+                    "promissory_note":"Cybernetic Enhancements: At the start of your turn: Remove 1 token from the L1Z1X player's strategy pool and return it to his reinforcements. Then, place 1 command token from your reinforcements in your strategy pool. Then, return this card to the L1Z1X player.",
+                    "technologies": ["Inheritance Systems: You may exhaust this card and spend 2 resources when you research a technology; ignore all of that technology's prerequisites. Requirements: 2 Yellow"],
+                    "unit_upgrades":[
+                        {
+                        "name": "Super Dreadnought I",
+                        "cost": 4,
+                        "combat": "5",
+                        "move": 1,
+                        "capacity": 2,
+                        "abilities": ["Sustain Damage","Bombardment 5"],
+                        "prerequisites": "none"
+                        },
+                        {
+                        "name": "Super Dreadnought II",
+                        "cost": 4,
+                        "combat": "4",
+                        "move": 2,
+                        "capacity": 2,
+                        "abilities": ["Sustain Damage","Bombardment 4"],
+                        "prerequisites": "2 Blue. 1 Yellow"
+                        }
+                    ],
+                    
+                    "flagship": {
+                        "name": "0.0.1",
+                        "cost": 8,
+                        "combat": "5x2",
+                        "move": 1,
+                        "capacity": 5,
+                        "abilities": ["Sustain Damage", "During a space combat, hits produced by this ship and by your dreadnoughts in this system must be assigned to non-fighter ships if able."]
+                    },
+                    "government": ["Unknown, Scientific"],
+                    "quote": "You do not know the meaning of time. You do not comprehend the infinite. Your ignorance is surpassed only by your irrelevance."
+                },
+                {
+                    "faction": "The Mentak Coalition",
+                        "image": "https://vignette.wikia.nocookie.net/twilight-imperium-worlds/images/c/cb/Mentak_Coalition.PNG/revision/latest?cb=20181213014159",
+                        "abilities": ["Ambush: At the start of a space combat, you may roll 1 die for each of up to 2 of your cruisers or destroyers in the system.  For each result equal to or greater than that ship's combat value, produce 1 hit; your opponent must assign it to 1 of his ships.", "Pillage: After 1 of your neighbors gains trade goods or resolves a transaction, if he has 3 or more trade goods, you may take 1 of his trade goods or commodities."],
+                        "promissory_note":"Promise of Protection: Action: Place this card face-up in your play area. While this card is in your play area, the Mentak player cannot use their Pillage faction ability against you. If you activate a system that contains 1 or more of the Mentak player's units, return this card to the Mentak player.",
+                        "technologies": ["Salvage Operations: After you win or lose a space combat, gain 1 trade good; if you won the combat, you may also produce 1 ship in that system of any ship type that was destroyed during the combat. Requirements: 2 Yellow", "Mirror Computing: When you spend trade goods, each trade good is worth 2 resources or influence instead of 1. Requirements: 3 Yellow"],
+                        
+                        "flagship": {
+                            "name": "Fourth Moon",
+                            "cost": 8,
+                            "combat": "7x2",
+                            "move": 1,
+                            "capacity": 3,
+                            "abilities": ["Sustain Damage", "Other players' ships in this system cannot use Sustain Damage"]
+                        },
+                        "government": [", Expansionist"],
+                        "quote": "One people. One mind. One destiny. We will rise above the pit they have thrown us in."
+                    }
 ]

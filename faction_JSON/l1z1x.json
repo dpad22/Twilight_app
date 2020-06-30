@@ -1,0 +1,40 @@
+[
+    {
+        "faction": "The L1Z1X Mindnet",
+            "image": "https://vignette.wikia.nocookie.net/twilight-imperium-worlds/images/8/8d/L1Z1X.PNG/revision/latest/top-crop/width/360/height/450?cb=20181213125810",
+            "abilities": ["Assimilate: When you gain control of a planet, replace each PDS and space dock that is on that planet with a matching unit from your reinforcements.","Harrow: After each round of ground combat, your ships in the active system may use their Bombardment abilities against your opponent's ground forces on the planet."],
+            "promissory_note":"Cybernetic Enhancements: At the start of your turn: Remove 1 token from the L1Z1X player's strategy pool and return it to his reinforcements. Then, place 1 command token from your reinforcements in your strategy pool. Then, return this card to the L1Z1X player.",
+            "technologies": ["Inheritance Systems: You may exhaust this card and spend 2 resources when you research a technology; ignore all of that technology's prerequisites. Requirements: 2 Yellow"],
+            "unit_upgrades":[
+                {
+                "name": "Super Dreadnought I",
+                "cost": 4,
+                "combat": "5",
+                "move": 1,
+                "capacity": 2,
+                "abilities": ["Sustain Damage","Bombardment 5"],
+                "prerequisites": "none"
+                },
+                {
+                "name": "Super Dreadnought II",
+                "cost": 4,
+                "combat": "4",
+                "move": 2,
+                "capacity": 2,
+                "abilities": ["Sustain Damage","Bombardment 4"],
+                "prerequisites": "2 Blue. 1 Yellow"
+                }
+            ],
+            
+            "flagship": {
+                "name": "0.0.1",
+                "cost": 8,
+                "combat": "5x2",
+                "move": 1,
+                "capacity": 5,
+                "abilities": ["Sustain Damage", "During a space combat, hits produced by this ship and by your dreadnoughts in this system must be assigned to non-fighter ships if able."]
+            },
+            "government": ["Unknown, Scientific"],
+            "quote": "You do not know the meaning of time. You do not comprehend the infinite. Your ignorance is surpassed only by your irrelevance."
+        }
+]
