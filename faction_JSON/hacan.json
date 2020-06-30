@@ -1,7 +1,7 @@
 [
     {
         "faction": "The Emirates of Hacan",
-            "image": "https://lh3.googleusercontent.com/proxy/0rtNzl772UjRlwwnxBlTkvre-bypuzgndUPiYoFSwBRXPI8aRDHWV3BvsFPxMCvuE0klcbJiyw4vBQjqyfazlLG4Dx_pf7yoWw",
+            "image": "https://images-cdn.fantasyflightgames.com/filer_public/68/d9/68d9e662-f130-4c18-9182-4e9716552d02/ti07_preview7.jpg",
             "abilities": ["Masters of Trade: You do not have to spend a command token to resolve the secondary ability of the 'Trade' strategy card.", "Guild Ships: You can negotiate transactions with players who are not your neighbor.","Arbiters: When you are negotiating a transaction, action cards can be exchanged as part of that transaction."],
             "promissory_note":"Trade Convoys: ACTION: Place this card face-up in your play area. While this card is in your play area, you may negotiate transactions with players who are not your neighbor. If you activate a system that contains 1 or more of the Hacan player's units, return this card to the Hacan player.",
             "technologies": ["Production Biomes: ACTION: Exhaust this card and spend 1 token from your strategy pool to gain 4 trade goods and choose 1 other player; that player gains 2 trade goods. Requirements: 2 Green", "Quantum Datahub Node: At the end of the strategy phase, you may spend 1 token from your strategy pool and give another player 3 of your trade goods.  If you do, give 1 of your strategy cards to that player and take 1 of his strategy cards. Requirements: 3 Yellow"],

@@ -218,9 +218,16 @@
                 {
                     "faction": "The Mentak Coalition",
                         "image": "https://vignette.wikia.nocookie.net/twilight-imperium-worlds/images/c/cb/Mentak_Coalition.PNG/revision/latest?cb=20181213014159",
-                        "abilities": ["Ambush: At the start of a space combat, you may roll 1 die for each of up to 2 of your cruisers or destroyers in the system.  For each result equal to or greater than that ship's combat value, produce 1 hit; your opponent must assign it to 1 of his ships.", "Pillage: After 1 of your neighbors gains trade goods or resolves a transaction, if he has 3 or more trade goods, you may take 1 of his trade goods or commodities."],
+                        
+                        "abilities": {
+                            "Ambush": "At the start of a space combat, you may roll 1 die for each of up to 2 of your cruisers or destroyers in the system.  For each result equal to or greater than that ship's combat value, produce 1 hit; your opponent must assign it to 1 of his ships.", "Pillage": "After 1 of your neighbors gains trade goods or resolves a transaction, if he has 3 or more trade goods, you may take 1 of his trade goods or commodities."
+                        },
                         "promissory_note":"Promise of Protection: Action: Place this card face-up in your play area. While this card is in your play area, the Mentak player cannot use their Pillage faction ability against you. If you activate a system that contains 1 or more of the Mentak player's units, return this card to the Mentak player.",
-                        "technologies": ["Salvage Operations: After you win or lose a space combat, gain 1 trade good; if you won the combat, you may also produce 1 ship in that system of any ship type that was destroyed during the combat. Requirements: 2 Yellow", "Mirror Computing: When you spend trade goods, each trade good is worth 2 resources or influence instead of 1. Requirements: 3 Yellow"],
+
+                        "technologies": {
+                            "Salvage Operations": "After you win or lose a space combat, gain 1 trade good; if you won the combat, you may also produce 1 ship in that system of any ship type that was destroyed during the combat. Requirements: 2 Yellow", 
+                            "Mirror Computing": "When you spend trade goods, each trade good is worth 2 resources or influence instead of 1. Requirements: 3 Yellow"
+                        },
                         
                         "flagship": {
                             "name": "Fourth Moon",
