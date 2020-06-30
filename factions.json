@@ -2,9 +2,9 @@
     {
         "faction": "The Arborec",
         "image": "https://miro.medium.com/max/361/1*zTAqWIxzpC_Zde_9Y5B4FA.jpeg",
-        "abilities": ["Mitosis: Your space docks cannot produce infantry.  At the start of the status phase , place 1 infantry from your reinforcements on any planet you control."],
+        "abilities": ["Your space docks cannot produce infantry.  At the start of the status phase , place 1 infantry from your reinforcements on any planet you control."],
         "promissory_note":"Stymie: ACTION: Place this card face up in your play area. While this card is in your play area, the Arborec player cannot produce units in or adjacent to non-home systems that contain 1 or more of your units. If you activate a system that contains 1 or more of the Arborec player's units, return this card to the Arborec player.",
-        "technologies": "Bioplasmosis: At the end of the status phase , you may remove any number of infantry from planets you control and place them on 1 or more planets you control in the same or adjacent systems. Requirements: 2 Green",
+        "technologies": "At the end of the status phase , you may remove any number of infantry from planets you control and place them on 1 or more planets you control in the same or adjacent systems. Requirements: 2 Green",
         "unit_upgrades":[
             {
             "name": "Letani Warrior",
@@ -37,13 +37,13 @@
         "faction": "The Barony of Letnev",
         "image": "https://preview.redd.it/sswzp67qdcc41.jpg?width=371&format=pjpg&auto=webp&s=de8333a4964ac8d4611c0f3a56fecf470b3ccbd4",
         "abilities": {
-            "Munitions_Reserves": "Munitions Reserves: At the start of each round of space combat, you may spend 2 trade goods;  you may re-roll any number of your dice during that combat round.",
-            "Armada": "Armada: The maximum number of non-fighter ships you can have in each system is equal to 2 more than the number of tokens in your fleet pool."
+            "Munitions_Reserves": "At the start of each round of space combat, you may spend 2 trade goods;  you may re-roll any number of your dice during that combat round.",
+            "Armada": "The maximum number of non-fighter ships you can have in each system is equal to 2 more than the number of tokens in your fleet pool."
         },
         "promissory_note":"War Funding: At the start of a round of space combat: The Letnev player loses 2 trade goods. During this combat round, re-roll any number of your dice. Then, return this card to the Letnev player.",
         "technologies": {
             "L4_Disruptors": "During an invasion, units cannot use SPACE CANNON against your units. Requirements: Yellow",
-            "Non_Euclidean_Shielding": "When 1 of your units uses SUSTAIN DAMAGE, cancel 2 hits instead of 1. Requirements: 2 Red"
+            "NonEuclideanShielding": "When 1 of your units uses SUSTAIN DAMAGE, cancel 2 hits instead of 1. Requirements: 2 Red"
         },
         "flagship": {
             "name": "Arc Secundus",
@@ -61,11 +61,11 @@
         "faction": "The Clan of Saar",
         "image": "https://pbs.twimg.com/media/DTsauHxW4AEPZ0J.jpg",
         "abilities": {
-            "Scavenge": "Scavenge: After you gain control of a planet, gain 1 trade good.",
-            "Nomadic": "Nomadic: You can score objectives even if you do not control the planets in your home system."
+            "Scavenge": "After you gain control of a planet, gain 1 trade good.",
+            "Nomadic": "You can score objectives even if you do not control the planets in your home system."
         },
         "promissory_note":"Ragh's Call: After you commit 1 or more units to land on a planet: Remove all of the Saar player's ground forces from that planet and place them on a planet controlled by the Saar player. Then return this card to the Saar player.",
-        "technologies": "Chaos Mapping: Other players cannot activate asteroid fields that contain 1 or more of your ships. At the start of your turn during the action phase, you may produce 1 unit in a system that contains at least 1 of your units that has Production. Requirements: Blue",
+        "technologies": "Other players cannot activate asteroid fields that contain 1 or more of your ships. At the start of your turn during the action phase, you may produce 1 unit in a system that contains at least 1 of your units that has Production. Requirements: Blue",
         "unit_upgrades":[
             {
             "name": "Floating Factory I",
@@ -98,12 +98,12 @@
         "faction": "The Embers of Muaat",
         "image": "https://vignette.wikia.nocookie.net/twilight-imperium-worlds/images/d/da/Embers_of_Muaat.PNG/revision/latest?cb=20181213041953",
         "abilities": {
-            "Star_Forge": "Star Forge: ACTION: Spend 1 token from your strategy pool to place either 2 fighters or 1 destroyer from your reinforcements in a system that contains 1 or more of your war suns.",
-            "Gashlai_Physiology": "Gashlai Physiology: Your ships can move through supernovas."
+            "Star_Forge": "ACTION: Spend 1 token from your strategy pool to place either 2 fighters or 1 destroyer from your reinforcements in a system that contains 1 or more of your war suns.",
+            "Gashlai_Physiology": "Your ships can move through supernovas."
         },
         "promissory_note":"Fires of the Gashlai:ACTION: Remove 1 token from the Muaat player's fleet pool and return it to his reinforcements. Then, gain your war sun unit upgrade technology card. Then return this card to the Muaat player.",
         "technologies": [
-            "Magmus Reactor: Your ships can move into supernovas, After 1 or more of your units use Production in a system that either contains a war sun or is adjacent to a supernova, gain 1 trade good. Requirements:2 Red"],
+            "Your ships can move into supernovas, After 1 or more of your units use Production in a system that either contains a war sun or is adjacent to a supernova, gain 1 trade good. Requirements:2 Red"],
         "unit_upgrades":[
             {
             "name": "Prototype War Sun I",
@@ -140,14 +140,14 @@
     "faction": "The Emirates of Hacan",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/68/d9/68d9e662-f130-4c18-9182-4e9716552d02/ti07_preview7.jpg",
         "abilities": {
-            "Masters_of_Trade": "Masters of Trade: You do not have to spend a command token to resolve the secondary ability of the 'Trade' strategy card.", 
+            "MastersofTrade": "Masters of Trade: You do not have to spend a command token to resolve the secondary ability of the 'Trade' strategy card.", 
             "Guild_Ships": "You can negotiate transactions with players who are not your neighbor.",
             "Arbiters": "When you are negotiating a transaction, action cards can be exchanged as part of that transaction."
         },
         "promissory_note":"Trade Convoys: ACTION: Place this card face-up in your play area. While this card is in your play area, you may negotiate transactions with players who are not your neighbor. If you activate a system that contains 1 or more of the Hacan player's units, return this card to the Hacan player.",
         "technologies": {
-            "Production_Biomes": "Production Biomes: ACTION: Exhaust this card and spend 1 token from your strategy pool to gain 4 trade goods and choose 1 other player; that player gains 2 trade goods. Requirements: 2 Green", 
-            "Quantum_Datahub_Node": "Quantum Datahub Node: At the end of the strategy phase, you may spend 1 token from your strategy pool and give another player 3 of your trade goods.  If you do, give 1 of your strategy cards to that player and take 1 of his strategy cards. Requirements: 3 Yellow"
+            "Production_Biomes": "ACTION: Exhaust this card and spend 1 token from your strategy pool to gain 4 trade goods and choose 1 other player; that player gains 2 trade goods. Requirements: 2 Green", 
+            "QuantumDatahubNode": "At the end of the strategy phase, you may spend 1 token from your strategy pool and give another player 3 of your trade goods.  If you do, give 1 of your strategy cards to that player and take 1 of his strategy cards. Requirements: 3 Yellow"
         },
         "flagship": {
             "name": "Wrath of Kenara",
@@ -165,8 +165,8 @@
         "faction": "The Federation of Sol",
             "image": "https://external-preview.redd.it/6tFumLxWUkUQT3msuf9qmg0QQgPg-XKRIa4u-SZZYA8.jpg?auto=webp&s=cef6b628202ea9f563e481838255104441921556",
             "abilities": {
-                "Orbital_Drop": "Orbital Drop: ACTION: Spend 1 token from your strategy pool to place 2 infantry from your reinforcements on 1 planet you control.",
-                "Versatile": "Versatile: When you gain command tokens during the status phase, gain 1 additional command token."
+                "Orbital_Drop": "ACTION: Spend 1 token from your strategy pool to place 2 infantry from your reinforcements on 1 planet you control.",
+                "Versatile": "When you gain command tokens during the status phase, gain 1 additional command token."
             },
             "promissory_note":"Military Support: At the start of the Sol player's turn: Remove 1 token from the Sol player's strategy pool, if able, and return it to his reinforcements. Then, you may place 2 infantry from your reinforcements on any planet you control. Then return this card to the Sol player.",
             
@@ -186,9 +186,9 @@
             "faction": "The Ghosts of Creuss",
                 "image": "https://www.fantasyflightgames.com/media/ffg_content/Twilight%20Imperium%203/shards-of-the-throne/preview-3/the-ghosts-of-creuss.png",
                 "abilities": {
-                    "Quantum_Entanglement": "Quantum Entanglement: You treat all systems that contain either an alpha or beta wormhole as adjacent to each other. Game effects cannot prevent you from using this ability.",
-                    "Slipstream": "Slipstream: During your tactical actions, apply +1 to the move value of each of your ships that starts its movement in your home system  or in a system that contains either an alpha or beta wormhole.",
-                    "Creuss_Gate": "Creuss Gate: When you create the game board, place the Creuss Gate (tile 17) where your home system would normally be placed. The Creuss Gate system is not a home system. Then, place your home system (tile 51) in your play area."
+                    "Quantum_Entanglement": "You treat all systems that contain either an alpha or beta wormhole as adjacent to each other. Game effects cannot prevent you from using this ability.",
+                    "Slipstream": "During your tactical actions, apply +1 to the move value of each of your ships that starts its movement in your home system  or in a system that contains either an alpha or beta wormhole.",
+                    "Creuss_Gate": "When you create the game board, place the Creuss Gate (tile 17) where your home system would normally be placed. The Creuss Gate system is not a home system. Then, place your home system (tile 51) in your play area."
                 },
                 "promissory_note":"Creuss Iff: At the start of your turn during the action phase: Place or move a Creuss wormhole token into either a system that contains a planet you control or a non-home system that does not contain another player's ships. Then, return this card to the Creuss player.",
                 "technologies": {
@@ -211,11 +211,11 @@
                 "faction": "The L1Z1X Mindnet",
                     "image": "https://vignette.wikia.nocookie.net/twilight-imperium-worlds/images/8/8d/L1Z1X.PNG/revision/latest/top-crop/width/360/height/450?cb=20181213125810",
                     "abilities": {
-                        "Assimilate": "Assimilate: When you gain control of a planet, replace each PDS and space dock that is on that planet with a matching unit from your reinforcements.",
-                        "Harrow": "Harrow: After each round of ground combat, your ships in the active system may use their Bombardment abilities against your opponent's ground forces on the planet."
+                        "Assimilate": "When you gain control of a planet, replace each PDS and space dock that is on that planet with a matching unit from your reinforcements.",
+                        "Harrow": "After each round of ground combat, your ships in the active system may use their Bombardment abilities against your opponent's ground forces on the planet."
                     },
                     "promissory_note":"Cybernetic Enhancements: At the start of your turn: Remove 1 token from the L1Z1X player's strategy pool and return it to his reinforcements. Then, place 1 command token from your reinforcements in your strategy pool. Then, return this card to the L1Z1X player.",
-                    "technologies": "Inheritance Systems: You may exhaust this card and spend 2 resources when you research a technology; ignore all of that technology's prerequisites. Requirements: 2 Yellow",
+                    "technologies": "You may exhaust this card and spend 2 resources when you research a technology; ignore all of that technology's prerequisites. Requirements: 2 Yellow",
                     "unit_upgrades":[
                         {
                         "name": "Super Dreadnought I",
