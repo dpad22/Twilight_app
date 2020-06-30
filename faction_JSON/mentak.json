@@ -10,8 +10,8 @@
             "promissory_note":"Action: Place this card face-up in your play area. While this card is in your play area, the Mentak player cannot use their Pillage faction ability against you. If you activate a system that contains 1 or more of the Mentak player's units, return this card to the Mentak player.",
 
             "technologies": {
-                "Salvage_Operations": "After you win or lose a space combat, gain 1 trade good; if you won the combat, you may also produce 1 ship in that system of any ship type that was destroyed during the combat. Requirements: 2 Yellow", 
-                "Mirror_Computing": "When you spend trade goods, each trade good is worth 2 resources or influence instead of 1. Requirements: 3 Yellow"
+                "SalvageOperations": "After you win or lose a space combat, gain 1 trade good; if you won the combat, you may also produce 1 ship in that system of any ship type that was destroyed during the combat. Requirements: 2 Yellow", 
+                "MirrorComputing": "When you spend trade goods, each trade good is worth 2 resources or influence instead of 1. Requirements: 3 Yellow"
             },
             
             "flagship": {
