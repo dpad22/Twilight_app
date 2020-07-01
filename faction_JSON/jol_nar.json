@@ -1,0 +1,48 @@
+[
+    {
+        "faction": "The Universities of Jol-Nar",
+        "image": "https://lh3.googleusercontent.com/proxy/qQqqMGNWygO7R_ajBjDBFCEkD4RqA9QqnkwcnQw_VyiVgFYYC1alVa1I9lmfnz-h56Q1T-K5QF2-cp7Hct5JbqGTHDYEHn1sWy6x",
+        "abilities": {
+            "Fragile": "Apply -1 to the result of each of your unit's combat rolls.",
+            "Brilliant": "When you spend a command token to resolve the secondary ability of the Technology strategy card, you may resolve the primary ability instead.",
+            "Analytical": "When you research a technology that is not a unit upgrade technology, you may ignore 1 prerequisite."
+    },
+        "promissory_note":"After the Jol-Nar player researches a technology that is not a faction technology: Gain that technology. Then, return this card to the Jol-Nar player.",
+
+        "technologies": {
+            "E-ResSiphons": "After another player activates a system that contains 1 or more of your ships, gain 4 trade goods. Requirements: 2 Yellow",
+            "SpacialConduitCylinder" : "You may exhaust this card after you activate a system that contains 1 or more of your units; that system is adjacent to all other systems that contain 1 or more of your units during this activation. Requirements: 2 Blue"
+        },
+        "unit_upgrades":[
+            {
+            "name": "Exotrireme I",
+            "cost": 4,
+            "combat": 5,
+            "move": 1,
+            "capacity": 1,
+            "abilities": ["Sustain damage, Bombardment 4 (x2)"],
+            "prerequisites": "none"
+            },
+            {
+            "name": "Exotrireme II",
+            "cost": 4,
+            "combat": 5,
+            "move": 2,
+            "capacity": 1,
+            "abilities": ["Sustain damage, Bombardment 4 (x2). This unit cannot be destroyed by 'Direct Hit' action cards.  After a round of space combat, you may destroy this unit to destroy up to 2 ships in this system."],
+            "prerequisites": "2 Blue, 1 Yellow"
+            }
+        ],
+        "flagship": {
+            "name": "J.N.S. Hylarim",
+            "cost": 8,
+            "combat": "6x2",
+            "move": 1,
+            "capacity": 3,
+            "abilities": ["Sustain Damage", "When making a combat roll for this ship, each result of 9 or 10, before applying modifiers, produces 2 additional hits."]
+        },
+        "government": ["Circle of Regents, Scientific"],
+        "quote": "We cannot halt progress for the sake of morality. If you have not the stomach for science, then i suggest you depart Wun-Escha immediately."
+        
+    }
+]

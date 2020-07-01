@@ -182,197 +182,243 @@
             "quote": "Our enemies consider us children. They consider us weak. Show them. Show them what the children of Jord can do."
             
         },
+    {
+        "faction": "The Ghosts of Creuss",
+            "image": "https://www.fantasyflightgames.com/media/ffg_content/Twilight%20Imperium%203/shards-of-the-throne/preview-3/the-ghosts-of-creuss.png",
+            "abilities": {
+                "Quantum_Entanglement": "You treat all systems that contain either an alpha or beta wormhole as adjacent to each other. Game effects cannot prevent you from using this ability.",
+                "Slipstream": "During your tactical actions, apply +1 to the move value of each of your ships that starts its movement in your home system  or in a system that contains either an alpha or beta wormhole.",
+                "Creuss_Gate": "When you create the game board, place the Creuss Gate (tile 17) where your home system would normally be placed. The Creuss Gate system is not a home system. Then, place your home system (tile 51) in your play area."
+            },
+            "promissory_note":"At the start of your turn during the action phase: Place or move a Creuss wormhole token into either a system that contains a planet you control or a non-home system that does not contain another player's ships. Then, return this card to the Creuss player.",
+            "technologies": {
+                "Wormhole_Generator": "Wormhole Generator: At the start of the status phase, place or move a Creuss wormhole token into either a system that contains a planet you control or a non-home system that does not contain another player's ships. Requirements: 2 Blue",
+                "Dimensional_Splicer": "Dimensional Splicer: At the start of space combat in a system that contains a wormhole and 1 or more of your ships, you may produce 1 hit and assign it to 1 of your opponent's ships. Requirements: 1 Red"
+            },
+            
+            "flagship": {
+                "name": "Hil Colish",
+                "cost": 8,
+                "combat": "5",
+                "move": 1,
+                "capacity": 3,
+                "abilities": ["Sustain Damage", "This ship's system contains a delta wormhole. During movement this ship may move before or after your other ships"]
+            },
+            "government": ["Unknown, Expansionist"],
+            "quote": "We to not mean to offend the honored ambassador. We mean only to imply that should his ship attempt to pass through the gate, it will not return."
+        },
         {
-            "faction": "The Ghosts of Creuss",
-                "image": "https://www.fantasyflightgames.com/media/ffg_content/Twilight%20Imperium%203/shards-of-the-throne/preview-3/the-ghosts-of-creuss.png",
-                "abilities": {
-                    "Quantum_Entanglement": "You treat all systems that contain either an alpha or beta wormhole as adjacent to each other. Game effects cannot prevent you from using this ability.",
-                    "Slipstream": "During your tactical actions, apply +1 to the move value of each of your ships that starts its movement in your home system  or in a system that contains either an alpha or beta wormhole.",
-                    "Creuss_Gate": "When you create the game board, place the Creuss Gate (tile 17) where your home system would normally be placed. The Creuss Gate system is not a home system. Then, place your home system (tile 51) in your play area."
+        "faction": "The L1Z1X Mindnet",
+            "image": "https://vignette.wikia.nocookie.net/twilight-imperium-worlds/images/8/8d/L1Z1X.PNG/revision/latest/top-crop/width/360/height/450?cb=20181213125810",
+            "abilities": {
+                "Assimilate": "When you gain control of a planet, replace each PDS and space dock that is on that planet with a matching unit from your reinforcements.",
+                "Harrow": "After each round of ground combat, your ships in the active system may use their Bombardment abilities against your opponent's ground forces on the planet."
+            },
+            "promissory_note":"Cybernetic Enhancements: At the start of your turn: Remove 1 token from the L1Z1X player's strategy pool and return it to his reinforcements. Then, place 1 command token from your reinforcements in your strategy pool. Then, return this card to the L1Z1X player.",
+            "technologies": "You may exhaust this card and spend 2 resources when you research a technology; ignore all of that technology's prerequisites. Requirements: 2 Yellow",
+            "unit_upgrades":[
+                {
+                "name": "Super Dreadnought I",
+                "cost": 4,
+                "combat": "5",
+                "move": 1,
+                "capacity": 2,
+                "abilities": ["Sustain Damage", "Bombardment 5"],
+                "prerequisites": "none"
                 },
-                "promissory_note":"At the start of your turn during the action phase: Place or move a Creuss wormhole token into either a system that contains a planet you control or a non-home system that does not contain another player's ships. Then, return this card to the Creuss player.",
+                {
+                "name": "Super Dreadnought II",
+                "cost": 4,
+                "combat": "4",
+                "move": 2,
+                "capacity": 2,
+                "abilities": ["Sustain Damage", "Bombardment 4"],
+                "prerequisites": "2 Blue. 1 Yellow"
+                }
+            ],
+            
+            "flagship": {
+                "name": "0.0.1",
+                "cost": 8,
+                "combat": "5x2",
+                "move": 1,
+                "capacity": 5,
+                "abilities": ["Sustain Damage", "During a space combat, hits produced by this ship and by your dreadnoughts in this system must be assigned to non-fighter ships if able."]
+            },
+            "government": ["Unknown, Scientific"],
+            "quote": "You do not know the meaning of time. You do not comprehend the infinite. Your ignorance is surpassed only by your irrelevance."
+        },
+        {
+            "faction": "The Mentak Coalition",
+                "image": "https://vignette.wikia.nocookie.net/twilight-imperium-worlds/images/c/cb/Mentak_Coalition.PNG/revision/latest?cb=20181213014159",
+
+                "abilities": {
+                    "Ambush": "At the start of a space combat, you may roll 1 die for each of up to 2 of your cruisers or destroyers in the system.  For each result equal to or greater than that ship's combat value, produce 1 hit; your opponent must assign it to 1 of his ships.", 
+                    "Pillage": "Pillage: After 1 of your neighbors gains trade goods or resolves a transaction, if he has 3 or more trade goods, you may take 1 of his trade goods or commodities."
+                },
+                "promissory_note":"Promise of Protection: Action: Place this card face-up in your play area. While this card is in your play area, the Mentak player cannot use their Pillage faction ability against you. If you activate a system that contains 1 or more of the Mentak player's units, return this card to the Mentak player.",
+
                 "technologies": {
-                    "Wormhole_Generator": "Wormhole Generator: At the start of the status phase, place or move a Creuss wormhole token into either a system that contains a planet you control or a non-home system that does not contain another player's ships. Requirements: 2 Blue",
-                    "Dimensional_Splicer": "Dimensional Splicer: At the start of space combat in a system that contains a wormhole and 1 or more of your ships, you may produce 1 hit and assign it to 1 of your opponent's ships. Requirements: 1 Red"
+                    "Salvage_Operations": "After you win or lose a space combat, gain 1 trade good; if you won the combat, you may also produce 1 ship in that system of any ship type that was destroyed during the combat. Requirements: 2 Yellow", 
+                    "Mirror_Computing": "When you spend trade goods, each trade good is worth 2 resources or influence instead of 1. Requirements: 3 Yellow"
                 },
                 
                 "flagship": {
-                    "name": "Hil Colish",
+                    "name": "Fourth Moon",
                     "cost": 8,
-                    "combat": "5",
+                    "combat": "7x2",
                     "move": 1,
                     "capacity": 3,
-                    "abilities": ["Sustain Damage", "This ship's system contains a delta wormhole. During movement this ship may move before or after your other ships"]
+                    "abilities": ["Sustain Damage", "Other players' ships in this system cannot use Sustain Damage"]
                 },
-                "government": ["Unknown, Expansionist"],
-                "quote": "We to not mean to offend the honored ambassador. We mean only to imply that should his ship attempt to pass through the gate, it will not return."
+                "government": ["Table of Captains, Expansionist"],
+                "quote": "One people. One mind. One destiny. We will rise above the pit they have thrown us in."
             },
             {
-                "faction": "The L1Z1X Mindnet",
-                    "image": "https://vignette.wikia.nocookie.net/twilight-imperium-worlds/images/8/8d/L1Z1X.PNG/revision/latest/top-crop/width/360/height/450?cb=20181213125810",
-                    "abilities": {
-                        "Assimilate": "When you gain control of a planet, replace each PDS and space dock that is on that planet with a matching unit from your reinforcements.",
-                        "Harrow": "After each round of ground combat, your ships in the active system may use their Bombardment abilities against your opponent's ground forces on the planet."
+                "faction": "The Naalu Collective",
+                "image": "https://i.imgur.com/a1bnnfb.jpg",
+                "abilities": {
+                    "Telepathic": "At the end of the strategy phase, place the Naalu '0' token on your strategy card; you are first in initiative order.",
+                    "Foresight": "After another player moves ships into a system that contains 1 or more of your ships, you may place 1 token from your strategy pool in an adjacent system that does not contain another player's ships;  move your ships from the active system into that system."
+                },
+                "promissory_note":"At the end of the strategy phase: Place this card face-up in your play area and place the Naalu '0' token on your strategy card;  you are first in the initiative order. The Naalu player cannot use his TELEPATHIC faction ability during this game round. Return this card to the Naalu player at the end of the status phase.",
+                "technologies": "After another player activates a system that contains 1 or more of your ships, that player removes 1 token from his fleet pool and returns it to his reinforcements. Requirements: 3 Green",
+                "unit_upgrades":[
+                    {
+                    "name": "Hybrid Crystal Fighter I",
+                    "cost": "1x2",
+                    "combat": 8,
+                    "prerequisites": "none"
                     },
-                    "promissory_note":"Cybernetic Enhancements: At the start of your turn: Remove 1 token from the L1Z1X player's strategy pool and return it to his reinforcements. Then, place 1 command token from your reinforcements in your strategy pool. Then, return this card to the L1Z1X player.",
-                    "technologies": "You may exhaust this card and spend 2 resources when you research a technology; ignore all of that technology's prerequisites. Requirements: 2 Yellow",
-                    "unit_upgrades":[
-                        {
-                        "name": "Super Dreadnought I",
-                        "cost": 4,
-                        "combat": "5",
-                        "move": 1,
-                        "capacity": 2,
-                        "abilities": ["Sustain Damage", "Bombardment 5"],
-                        "prerequisites": "none"
-                        },
-                        {
-                        "name": "Super Dreadnought II",
-                        "cost": 4,
-                        "combat": "4",
-                        "move": 2,
-                        "capacity": 2,
-                        "abilities": ["Sustain Damage", "Bombardment 4"],
-                        "prerequisites": "2 Blue. 1 Yellow"
-                        }
-                    ],
-                    
-                    "flagship": {
-                        "name": "0.0.1",
-                        "cost": 8,
-                        "combat": "5x2",
-                        "move": 1,
-                        "capacity": 5,
-                        "abilities": ["Sustain Damage", "During a space combat, hits produced by this ship and by your dreadnoughts in this system must be assigned to non-fighter ships if able."]
-                    },
-                    "government": ["Unknown, Scientific"],
-                    "quote": "You do not know the meaning of time. You do not comprehend the infinite. Your ignorance is surpassed only by your irrelevance."
+                    {
+                    "name": "Hybrid Crystal Fighter II",
+                    "cost": "1x2",
+                    "combat": 7,
+                    "move": 2,
+                    "abilities": ["This unit may move without being transported.  Each fighter in excess of your ships' capacity counts as 1/2 of a ship against your fleet pool."],
+                    "prerequisites": "1 Green/ 1 Blue"
+                    }
+                ],
+                "flagship": {
+                    "name": "Matriarch",
+                    "cost": 8,
+                    "combat": "9x2",
+                    "move": 1,
+                    "capacity": 6,
+                    "abilities": ["Sustain Damage", "During an invasion in this system, you may commit fighters to planets as if they were ground forces. When combat ends, return those units to the space area."]
+                },
+                "government": ["Collective, Military"],
+                "quote": "You insult me ssskinling. Ze monstrosity you suggest-ze Druua, we are not capable of such cruelty. Purge zis madness from your mind and leave zis world."
+                
+            },
+        {
+            "faction": "The Nekro Virus",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSmXPPh5fV9g9cDyniImCnMH4DpAUbf7zp5qA&usqp=CAU",
+            "abilities": {
+                "Galactic Threat": "You cannot vote on agendas.  Once per agenda phase, after an agenda is revealed, you may predict aloud the outcome of that agenda.  If your prediction is correct, gain 1 technology that is owned by a player who voted how you predicted.",
+                "Technological Singularity": "Once per combat, after 1 of your opponent's units is destroyed, you may gain 1 technology that is owned by that player.",
+                "Propagation": "You cannot research technology.  When you would research a technology, gain 3 command tokens instead."
+            },
+            "promissory_note":"Antivirus: At the start of combat: Place this card face-up in your play area. While this card is in your play area, the Nekro player cannot use his TECHNOLOGICAL SINGULARITY faction ability against you. If you activate a system that contains 1 or more of the Nekro player's units, return this card to the Nekro player.",
+            "technologies": {
+                "Valefar Assimilator X": "When you would gain another players technology using 1 of your faction ability, you may place the 'X' assimilator token on a faction technology owned by that player instead.  While that token is on a technology, this card gains that technology's text.  You cannot place an assimilator token on technology that already has an assimilator token.",
+                "Valefar Assimilator Y": "When you would gain another players technology using 1 of your faction ability, you may place the 'Y' assimilator token on a faction technology owned by that player instead.  While that token is on a technology, this card gains that technology's text.  You cannot place an assimilator token on technology that already has an assimilator token."
+            },
+            "flagship": {
+                "name": "The Alastor",
+                "cost": 8,
+                "combat": "9x2",
+                "move": 1,
+                "capacity": 3,
+                "abilities": ["Sustain Damage", "At the start of a space combat, choose any number of your ground forces in this system to participate in that combat as if they were ships."]
+            },
+            "government": ["...error, ...error"],
+            "quote": "The final step of all craft. The gate to eternity. A transcendency to a state of being that can only be described as godhood"
+            
+        },
+        {
+            "faction": "The Sardakk N'orr",
+            "image": "https://vignette.wikia.nocookie.net/twilight-imperium-worlds/images/0/07/Sardakk_N%27orr.PNG/revision/latest?cb=20181213070021",
+            "abilities": "Apply +1 to the result of each of your unit's combat rolls.",
+            "promissory_note":"At the start of an invasion combat: Apply +1 to the result of each of your unit's combat rolls during this combat.  If your opponent is the N'orr player, apply -1 to the result of each of his unit's combat rolls during this combat. Then, return this card to the N'orr player.",
+            "technologies": "After making combat rolls during a round of ground combat, if your opponent produced 1 or more hits, you produce 1 additional hit. Requirements: 2 Red",
+            "unit_upgrades":[
+                {
+                "name": "Exotrireme I",
+                "cost": 4,
+                "combat": 5,
+                "move": 1,
+                "capacity": 1,
+                "abilities": ["Sustain damage, Bombardment 4 (x2)"],
+                "prerequisites": "none"
                 },
                 {
-                    "faction": "The Mentak Coalition",
-                        "image": "https://vignette.wikia.nocookie.net/twilight-imperium-worlds/images/c/cb/Mentak_Coalition.PNG/revision/latest?cb=20181213014159",
-
-                        "abilities": {
-                            "Ambush": "At the start of a space combat, you may roll 1 die for each of up to 2 of your cruisers or destroyers in the system.  For each result equal to or greater than that ship's combat value, produce 1 hit; your opponent must assign it to 1 of his ships.", 
-                            "Pillage": "Pillage: After 1 of your neighbors gains trade goods or resolves a transaction, if he has 3 or more trade goods, you may take 1 of his trade goods or commodities."
-                        },
-                        "promissory_note":"Promise of Protection: Action: Place this card face-up in your play area. While this card is in your play area, the Mentak player cannot use their Pillage faction ability against you. If you activate a system that contains 1 or more of the Mentak player's units, return this card to the Mentak player.",
-
-                        "technologies": {
-                            "Salvage_Operations": "After you win or lose a space combat, gain 1 trade good; if you won the combat, you may also produce 1 ship in that system of any ship type that was destroyed during the combat. Requirements: 2 Yellow", 
-                            "Mirror_Computing": "When you spend trade goods, each trade good is worth 2 resources or influence instead of 1. Requirements: 3 Yellow"
-                        },
-                        
-                        "flagship": {
-                            "name": "Fourth Moon",
-                            "cost": 8,
-                            "combat": "7x2",
-                            "move": 1,
-                            "capacity": 3,
-                            "abilities": ["Sustain Damage", "Other players' ships in this system cannot use Sustain Damage"]
-                        },
-                        "government": ["Table of Captains, Expansionist"],
-                        "quote": "One people. One mind. One destiny. We will rise above the pit they have thrown us in."
-                    },
-                    {
-                        "faction": "The Naalu Collective",
-                        "image": "https://i.imgur.com/a1bnnfb.jpg",
-                        "abilities": {
-                            "Telepathic": "At the end of the strategy phase, place the Naalu '0' token on your strategy card; you are first in initiative order.",
-                            "Foresight": "After another player moves ships into a system that contains 1 or more of your ships, you may place 1 token from your strategy pool in an adjacent system that does not contain another player's ships;  move your ships from the active system into that system."
-                        },
-                        "promissory_note":"At the end of the strategy phase: Place this card face-up in your play area and place the Naalu '0' token on your strategy card;  you are first in the initiative order. The Naalu player cannot use his TELEPATHIC faction ability during this game round. Return this card to the Naalu player at the end of the status phase.",
-                        "technologies": "After another player activates a system that contains 1 or more of your ships, that player removes 1 token from his fleet pool and returns it to his reinforcements. Requirements: 3 Green",
-                        "unit_upgrades":[
-                            {
-                            "name": "Hybrid Crystal Fighter I",
-                            "cost": "1x2",
-                            "combat": 8,
-                            "prerequisites": "none"
-                            },
-                            {
-                            "name": "Hybrid Crystal Fighter II",
-                            "cost": "1x2",
-                            "combat": 7,
-                            "move": 2,
-                            "abilities": ["This unit may move without being transported.  Each fighter in excess of your ships' capacity counts as 1/2 of a ship against your fleet pool."],
-                            "prerequisites": "1 Green/ 1 Blue"
-                            }
-                        ],
-                        "flagship": {
-                            "name": "Matriarch",
-                            "cost": 8,
-                            "combat": "9x2",
-                            "move": 1,
-                            "capacity": 6,
-                            "abilities": ["Sustain Damage", "During an invasion in this system, you may commit fighters to planets as if they were ground forces. When combat ends, return those units to the space area."]
-                        },
-                        "government": ["Collective, Military"],
-                        "quote": "You insult me ssskinling. Ze monstrosity you suggest-ze Druua, we are not capable of such cruelty. Purge zis madness from your mind and leave zis world."
-                        
-                    },
-                    {
-                        "faction": "The Nekro Virus",
-                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSmXPPh5fV9g9cDyniImCnMH4DpAUbf7zp5qA&usqp=CAU",
-                        "abilities": {
-                            "Galactic Threat": "You cannot vote on agendas.  Once per agenda phase, after an agenda is revealed, you may predict aloud the outcome of that agenda.  If your prediction is correct, gain 1 technology that is owned by a player who voted how you predicted.",
-                            "Technological Singularity": "Once per combat, after 1 of your opponent's units is destroyed, you may gain 1 technology that is owned by that player.",
-                            "Propagation": "You cannot research technology.  When you would research a technology, gain 3 command tokens instead."
-                        },
-                        "promissory_note":"Antivirus: At the start of combat: Place this card face-up in your play area. While this card is in your play area, the Nekro player cannot use his TECHNOLOGICAL SINGULARITY faction ability against you. If you activate a system that contains 1 or more of the Nekro player's units, return this card to the Nekro player.",
-                        "technologies": {
-                            "Valefar Assimilator X": "When you would gain another players technology using 1 of your faction ability, you may place the 'X' assimilator token on a faction technology owned by that player instead.  While that token is on a technology, this card gains that technology's text.  You cannot place an assimilator token on technology that already has an assimilator token.",
-                            "Valefar Assimilator Y": "When you would gain another players technology using 1 of your faction ability, you may place the 'Y' assimilator token on a faction technology owned by that player instead.  While that token is on a technology, this card gains that technology's text.  You cannot place an assimilator token on technology that already has an assimilator token."
-                        },
-                        "flagship": {
-                            "name": "The Alastor",
-                            "cost": 8,
-                            "combat": "9x2",
-                            "move": 1,
-                            "capacity": 3,
-                            "abilities": ["Sustain Damage", "At the start of a space combat, choose any number of your ground forces in this system to participate in that combat as if they were ships."]
-                        },
-                        "government": ["...error, ...error"],
-                        "quote": "The final step of all craft. The gate to eternity. A transcendency to a state of being that can only be described as godhood"
-                        
-                    },
-                    {
-                        "faction": "The Sardakk N'orr",
-                        "image": "https://vignette.wikia.nocookie.net/twilight-imperium-worlds/images/0/07/Sardakk_N%27orr.PNG/revision/latest?cb=20181213070021",
-                        "abilities": "Apply +1 to the result of each of your unit's combat rolls.",
-                        "promissory_note":"At the start of an invasion combat: Apply +1 to the result of each of your unit's combat rolls during this combat.  If your opponent is the N'orr player, apply -1 to the result of each of his unit's combat rolls during this combat. Then, return this card to the N'orr player.",
-                        "technologies": "After making combat rolls during a round of ground combat, if your opponent produced 1 or more hits, you produce 1 additional hit. Requirements: 2 Red",
-                        "unit_upgrades":[
-                            {
-                            "name": "Exotrireme I",
-                            "cost": 4,
-                            "combat": 5,
-                            "move": 1,
-                            "capacity": 1,
-                            "abilities": ["Sustain damage, Bombardment 4 (x2)"],
-                            "prerequisites": "none"
-                            },
-                            {
-                            "name": "Exotrireme II",
-                            "cost": 4,
-                            "combat": 5,
-                            "move": 2,
-                            "capacity": 1,
-                            "abilities": ["Sustain damage, Bombardment 4 (x2). This unit cannot be destroyed by 'Direct Hit' action cards.  After a round of space combat, you may destroy this unit to destroy up to 2 ships in this system."],
-                            "prerequisites": "2 Blue, 1 Yellow"
-                            }
-                        ],
-                        "flagship": {
-                            "name": "C'Morran N'orr",
-                            "cost": 8,
-                            "combat": "6x2",
-                            "move": 1,
-                            "capacity": 3,
-                            "abilities": ["Sustain Damage", "Apply +1 to the result of each of your other ship's combat rolls in this system."]
-                        },
-                        "government": ["Veiled Brood, Military"],
-                        "quote": "Fear is death. Most of you will die. The queen mother thanks you for your worthy sacrifice."
-                        
-                    }
+                "name": "Exotrireme II",
+                "cost": 4,
+                "combat": 5,
+                "move": 2,
+                "capacity": 1,
+                "abilities": ["Sustain damage, Bombardment 4 (x2). This unit cannot be destroyed by 'Direct Hit' action cards.  After a round of space combat, you may destroy this unit to destroy up to 2 ships in this system."],
+                "prerequisites": "2 Blue, 1 Yellow"
+                }
+            ],
+            "flagship": {
+                "name": "C'Morran N'orr",
+                "cost": 8,
+                "combat": "6x2",
+                "move": 1,
+                "capacity": 3,
+                "abilities": ["Sustain Damage", "Apply +1 to the result of each of your other ship's combat rolls in this system."]
+            },
+            "government": ["Veiled Brood, Military"],
+            "quote": "Fear is death. Most of you will die. The queen mother thanks you for your worthy sacrifice."
+            
+        },
+        {
+            "faction": "The Universities of Jol-Nar",
+            "image": "https://lh3.googleusercontent.com/proxy/qQqqMGNWygO7R_ajBjDBFCEkD4RqA9QqnkwcnQw_VyiVgFYYC1alVa1I9lmfnz-h56Q1T-K5QF2-cp7Hct5JbqGTHDYEHn1sWy6x",
+            "abilities": {
+                "Fragile": "Apply -1 to the result of each of your unit's combat rolls.",
+                "Brilliant": "When you spend a command token to resolve the secondary ability of the Technology strategy card, you may resolve the primary ability instead.",
+                "Analytical": "When you research a technology that is not a unit upgrade technology, you may ignore 1 prerequisite."
+        },
+            "promissory_note":"Research Agreement: After the Jol-Nar player researches a technology that is not a faction technology: Gain that technology. Then, return this card to the Jol-Nar player.",
+    
+            "technologies": {
+                "E-Res Siphons": "After another player activates a system that contains 1 or more of your ships, gain 4 trade goods. Requirements: 2 Yellow",
+                "Spacial Conduit Cylinder" : "You may exhaust this card after you activate a system that contains 1 or more of your units; that system is adjacent to all other systems that contain 1 or more of your units during this activation. Requirements: 2 Blue"
+            },
+            "unit_upgrades":[
+                {
+                "name": "Exotrireme I",
+                "cost": 4,
+                "combat": 5,
+                "move": 1,
+                "capacity": 1,
+                "abilities": ["Sustain damage, Bombardment 4 (x2)"],
+                "prerequisites": "none"
+                },
+                {
+                "name": "Exotrireme II",
+                "cost": 4,
+                "combat": 5,
+                "move": 2,
+                "capacity": 1,
+                "abilities": ["Sustain damage, Bombardment 4 (x2). This unit cannot be destroyed by 'Direct Hit' action cards.  After a round of space combat, you may destroy this unit to destroy up to 2 ships in this system."],
+                "prerequisites": "2 Blue, 1 Yellow"
+                }
+            ],
+            "flagship": {
+                "name": "J.N.S. Hylarim",
+                "cost": 8,
+                "combat": "6x2",
+                "move": 1,
+                "capacity": 3,
+                "abilities": ["Sustain Damage", "When making a combat roll for this ship, each result of 9 or 10, before applying modifiers, produces 2 additional hits."]
+            },
+            "government": ["Circle of Regents, Scientific"],
+            "quote": "We cannot halt progress for the sake of morality. If you have not the stomach for science, then i suggest you depart Wun-Escha immediately."
+            
+        }
 
 ]
