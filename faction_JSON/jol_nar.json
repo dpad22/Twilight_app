@@ -10,7 +10,7 @@
         "promissory_note":"After the Jol-Nar player researches a technology that is not a faction technology: Gain that technology. Then, return this card to the Jol-Nar player.",
 
         "technologies": {
-            "E-ResSiphons": "After another player activates a system that contains 1 or more of your ships, gain 4 trade goods. Requirements: 2 Yellow",
+            "E_ResSiphons": "After another player activates a system that contains 1 or more of your ships, gain 4 trade goods. Requirements: 2 Yellow",
             "SpacialConduitCylinder" : "You may exhaust this card after you activate a system that contains 1 or more of your units; that system is adjacent to all other systems that contain 1 or more of your units during this activation. Requirements: 2 Blue"
         },
         "unit_upgrades":[
