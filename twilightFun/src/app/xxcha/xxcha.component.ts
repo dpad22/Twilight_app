@@ -23,9 +23,9 @@ export class XxchaComponent implements OnInit {
   constructor(private _httpService: HttpService, private router: Router) { }
 
   ngOnInit() {
-    this._httpService.getWinnuApi().subscribe((data) => {
+    this._httpService.getXxchaApi().subscribe((data) => {
       this.faction = data;
-      console.log('Winnu Data')
+      console.log('Xxcha Data')
       console.log(this.faction)
       this.image = data['image']
       this.abilities = data['abilities']

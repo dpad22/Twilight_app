@@ -1,1 +1,43 @@
-<p>companion works!</p>
+<div class="col-sm-9" id="factions">
+    <h2>TI4 Companion</h2>
+<table class="table table-dark">
+    <thead>
+        <tr>
+            <th scope="col">Faction</th>
+            <th scope="col">Flagship</th>
+            <th scope="col">Abilities</th>
+            <th scope="col">Technologies</th>
+            <th scope="col">Promissory Note</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let faction of factions">
+            <td>
+                <img class="mr-3" src="{{faction.image}}" alt="{{faction.faction}}" width="150" height="150">
+                <p>{{faction.faction}}</p>
+            </td>
+            <td>
+                <p><span>Flagship: </span>{{faction.flagship.name}}</p>
+                <ul>
+                    <li><span>Abilities: </span>{{faction.flagship.abilities}}</li>
+                    <li><span>Combat Roll: </span>{{faction.flagship.combat}}</li>
+                    <li><span>Move: </span>{{faction.flagship.move}}</li>
+                    <li><span>Capacity: </span>{{faction.flagship.capacity}}</li>
+                </ul>
+            </td>
+            <td>
+                <p>Abilities</p>
+            <td>
+                <p>Technologies</p>
+            </td>
+            <td>
+                <p><span>{{faction.promissory_note.name}}:</span></p>
+                <p>{{faction.promissory_note.info}}</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+</div>

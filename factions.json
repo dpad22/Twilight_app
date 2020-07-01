@@ -3,7 +3,10 @@
         "faction": "The Arborec",
         "image": "https://miro.medium.com/max/361/1*zTAqWIxzpC_Zde_9Y5B4FA.jpeg",
         "abilities": ["Your space docks cannot produce infantry.  At the start of the status phase , place 1 infantry from your reinforcements on any planet you control."],
-        "promissory_note":"ACTION: Place this card face up in your play area. While this card is in your play area, the Arborec player cannot produce units in or adjacent to non-home systems that contain 1 or more of your units. If you activate a system that contains 1 or more of the Arborec player's units, return this card to the Arborec player.",
+        "promissory_note":{
+            "name": "Stymie",
+            "info": "ACTION: Place this card face up in your play area. While this card is in your play area, the Arborec player cannot produce units in or adjacent to non-home systems that contain 1 or more of your units. If you activate a system that contains 1 or more of the Arborec player's units, return this card to the Arborec player."
+        },
         "technologies": "At the end of the status phase , you may remove any number of infantry from planets you control and place them on 1 or more planets you control in the same or adjacent systems. Requirements: 2 Green",
         "unit_upgrades":[
             {
@@ -18,7 +21,7 @@
             "cost": "1x2",
             "combat": 7,
             "abilities": ["Production 2", "After this unit is destroyed, roll 1 die.  If the result is 6 or greater, place the unit on this card.  At the start of your next turn, place each unit that is on this card on a planet you control in your home system."],
-            "prerequisites": "none"
+            "prerequisites": "2 Green"
             }
         ],
         "flagship": {
@@ -40,7 +43,10 @@
             "Munitions_Reserves": "At the start of each round of space combat, you may spend 2 trade goods;  you may re-roll any number of your dice during that combat round.",
             "Armada": "The maximum number of non-fighter ships you can have in each system is equal to 2 more than the number of tokens in your fleet pool."
         },
-        "promissory_note":"At the start of a round of space combat: The Letnev player loses 2 trade goods. During this combat round, re-roll any number of your dice. Then, return this card to the Letnev player.",
+        "promissory_note":{
+            "name": "War Funding",
+            "info":"At the start of a round of space combat: The Letnev player loses 2 trade goods. During this combat round, re-roll any number of your dice. Then, return this card to the Letnev player."
+        },
         "technologies": {
             "L4_Disruptors": "During an invasion, units cannot use SPACE CANNON against your units. Requirements: Yellow",
             "NonEuclideanShielding": "When 1 of your units uses SUSTAIN DAMAGE, cancel 2 hits instead of 1. Requirements: 2 Red"
@@ -64,7 +70,10 @@
             "Scavenge": "After you gain control of a planet, gain 1 trade good.",
             "Nomadic": "You can score objectives even if you do not control the planets in your home system."
         },
-        "promissory_note":"Ragh's Call: After you commit 1 or more units to land on a planet: Remove all of the Saar player's ground forces from that planet and place them on a planet controlled by the Saar player. Then return this card to the Saar player.",
+        "promissory_note":{
+            "name": "Ragh's Call",
+            "info": "After you commit 1 or more units to land on a planet: Remove all of the Saar player's ground forces from that planet and place them on a planet controlled by the Saar player. Then return this card to the Saar player."
+        },
         "technologies": "Other players cannot activate asteroid fields that contain 1 or more of your ships. At the start of your turn during the action phase, you may produce 1 unit in a system that contains at least 1 of your units that has Production. Requirements: Blue",
         "unit_upgrades":[
             {
@@ -101,7 +110,10 @@
             "Star_Forge": "ACTION: Spend 1 token from your strategy pool to place either 2 fighters or 1 destroyer from your reinforcements in a system that contains 1 or more of your war suns.",
             "Gashlai_Physiology": "Your ships can move through supernovas."
         },
-        "promissory_note":"Fires of the Gashlai:ACTION: Remove 1 token from the Muaat player's fleet pool and return it to his reinforcements. Then, gain your war sun unit upgrade technology card. Then return this card to the Muaat player.",
+        "promissory_note":{
+            "name":"Fires of the Gashlai",
+            "info": "ACTION: Remove 1 token from the Muaat player's fleet pool and return it to his reinforcements. Then, gain your war sun unit upgrade technology card. Then return this card to the Muaat player."
+        },
         "technologies": [
             "Your ships can move into supernovas, After 1 or more of your units use Production in a system that either contains a war sun or is adjacent to a supernova, gain 1 trade good. Requirements:2 Red"],
         "unit_upgrades":[
@@ -144,7 +156,10 @@
             "Guild_Ships": "You can negotiate transactions with players who are not your neighbor.",
             "Arbiters": "When you are negotiating a transaction, action cards can be exchanged as part of that transaction."
         },
-        "promissory_note":"Trade Convoys: ACTION: Place this card face-up in your play area. While this card is in your play area, you may negotiate transactions with players who are not your neighbor. If you activate a system that contains 1 or more of the Hacan player's units, return this card to the Hacan player.",
+        "promissory_note":{
+            "name": "Trade Convoys",
+            "info": "ACTION: Place this card face-up in your play area. While this card is in your play area, you may negotiate transactions with players who are not your neighbor. If you activate a system that contains 1 or more of the Hacan player's units, return this card to the Hacan player."
+        },
         "technologies": {
             "Production_Biomes": "ACTION: Exhaust this card and spend 1 token from your strategy pool to gain 4 trade goods and choose 1 other player; that player gains 2 trade goods. Requirements: 2 Green", 
             "QuantumDatahubNode": "At the end of the strategy phase, you may spend 1 token from your strategy pool and give another player 3 of your trade goods.  If you do, give 1 of your strategy cards to that player and take 1 of his strategy cards. Requirements: 3 Yellow"
@@ -168,7 +183,10 @@
                 "Orbital_Drop": "ACTION: Spend 1 token from your strategy pool to place 2 infantry from your reinforcements on 1 planet you control.",
                 "Versatile": "When you gain command tokens during the status phase, gain 1 additional command token."
             },
-            "promissory_note":"Military Support: At the start of the Sol player's turn: Remove 1 token from the Sol player's strategy pool, if able, and return it to his reinforcements. Then, you may place 2 infantry from your reinforcements on any planet you control. Then return this card to the Sol player.",
+            "promissory_note":{
+                "name": "Military Support",
+                "info": "At the start of the Sol player's turn: Remove 1 token from the Sol player's strategy pool, if able, and return it to his reinforcements. Then, you may place 2 infantry from your reinforcements on any planet you control. Then return this card to the Sol player."
+            },
             
             "flagship": {
                 "name": "Genesis",
@@ -190,7 +208,10 @@
                 "Slipstream": "During your tactical actions, apply +1 to the move value of each of your ships that starts its movement in your home system  or in a system that contains either an alpha or beta wormhole.",
                 "Creuss_Gate": "When you create the game board, place the Creuss Gate (tile 17) where your home system would normally be placed. The Creuss Gate system is not a home system. Then, place your home system (tile 51) in your play area."
             },
-            "promissory_note":"At the start of your turn during the action phase: Place or move a Creuss wormhole token into either a system that contains a planet you control or a non-home system that does not contain another player's ships. Then, return this card to the Creuss player.",
+            "promissory_note":{
+                "name": "Creuss Iff",
+                "info": "At the start of your turn during the action phase: Place or move a Creuss wormhole token into either a system that contains a planet you control or a non-home system that does not contain another player's ships. Then, return this card to the Creuss player."
+            },
             "technologies": {
                 "Wormhole_Generator": "Wormhole Generator: At the start of the status phase, place or move a Creuss wormhole token into either a system that contains a planet you control or a non-home system that does not contain another player's ships. Requirements: 2 Blue",
                 "Dimensional_Splicer": "Dimensional Splicer: At the start of space combat in a system that contains a wormhole and 1 or more of your ships, you may produce 1 hit and assign it to 1 of your opponent's ships. Requirements: 1 Red"
@@ -214,7 +235,10 @@
                 "Assimilate": "When you gain control of a planet, replace each PDS and space dock that is on that planet with a matching unit from your reinforcements.",
                 "Harrow": "After each round of ground combat, your ships in the active system may use their Bombardment abilities against your opponent's ground forces on the planet."
             },
-            "promissory_note":"Cybernetic Enhancements: At the start of your turn: Remove 1 token from the L1Z1X player's strategy pool and return it to his reinforcements. Then, place 1 command token from your reinforcements in your strategy pool. Then, return this card to the L1Z1X player.",
+            "promissory_note":{
+                "name": "Cybernetic Enhancements",
+                "info": "At the start of your turn: Remove 1 token from the L1Z1X player's strategy pool and return it to his reinforcements. Then, place 1 command token from your reinforcements in your strategy pool. Then, return this card to the L1Z1X player."
+            },
             "technologies": "You may exhaust this card and spend 2 resources when you research a technology; ignore all of that technology's prerequisites. Requirements: 2 Yellow",
             "unit_upgrades":[
                 {
@@ -256,7 +280,10 @@
                     "Ambush": "At the start of a space combat, you may roll 1 die for each of up to 2 of your cruisers or destroyers in the system.  For each result equal to or greater than that ship's combat value, produce 1 hit; your opponent must assign it to 1 of his ships.", 
                     "Pillage": "Pillage: After 1 of your neighbors gains trade goods or resolves a transaction, if he has 3 or more trade goods, you may take 1 of his trade goods or commodities."
                 },
-                "promissory_note":"Promise of Protection: Action: Place this card face-up in your play area. While this card is in your play area, the Mentak player cannot use their Pillage faction ability against you. If you activate a system that contains 1 or more of the Mentak player's units, return this card to the Mentak player.",
+                "promissory_note":{
+                    "name": "Promise of Protection",
+                    "info": "Action: Place this card face-up in your play area. While this card is in your play area, the Mentak player cannot use their Pillage faction ability against you. If you activate a system that contains 1 or more of the Mentak player's units, return this card to the Mentak player."
+                },
 
                 "technologies": {
                     "Salvage_Operations": "After you win or lose a space combat, gain 1 trade good; if you won the combat, you may also produce 1 ship in that system of any ship type that was destroyed during the combat. Requirements: 2 Yellow", 
@@ -281,7 +308,10 @@
                     "Telepathic": "At the end of the strategy phase, place the Naalu '0' token on your strategy card; you are first in initiative order.",
                     "Foresight": "After another player moves ships into a system that contains 1 or more of your ships, you may place 1 token from your strategy pool in an adjacent system that does not contain another player's ships;  move your ships from the active system into that system."
                 },
-                "promissory_note":"At the end of the strategy phase: Place this card face-up in your play area and place the Naalu '0' token on your strategy card;  you are first in the initiative order. The Naalu player cannot use his TELEPATHIC faction ability during this game round. Return this card to the Naalu player at the end of the status phase.",
+                "promissory_note":{
+                    "name": "Gift of Prescience",
+                    "info": "At the end of the strategy phase: Place this card face-up in your play area and place the Naalu '0' token on your strategy card;  you are first in the initiative order. The Naalu player cannot use his TELEPATHIC faction ability during this game round. Return this card to the Naalu player at the end of the status phase."
+                },
                 "technologies": "After another player activates a system that contains 1 or more of your ships, that player removes 1 token from his fleet pool and returns it to his reinforcements. Requirements: 3 Green",
                 "unit_upgrades":[
                     {
@@ -319,7 +349,10 @@
                 "Technological Singularity": "Once per combat, after 1 of your opponent's units is destroyed, you may gain 1 technology that is owned by that player.",
                 "Propagation": "You cannot research technology.  When you would research a technology, gain 3 command tokens instead."
             },
-            "promissory_note":"Antivirus: At the start of combat: Place this card face-up in your play area. While this card is in your play area, the Nekro player cannot use his TECHNOLOGICAL SINGULARITY faction ability against you. If you activate a system that contains 1 or more of the Nekro player's units, return this card to the Nekro player.",
+            "promissory_note":{
+                "name": "Antivirus",
+                "info": "At the start of combat: Place this card face-up in your play area. While this card is in your play area, the Nekro player cannot use his TECHNOLOGICAL SINGULARITY faction ability against you. If you activate a system that contains 1 or more of the Nekro player's units, return this card to the Nekro player."
+            },
             "technologies": {
                 "Valefar Assimilator X": "When you would gain another players technology using 1 of your faction ability, you may place the 'X' assimilator token on a faction technology owned by that player instead.  While that token is on a technology, this card gains that technology's text.  You cannot place an assimilator token on technology that already has an assimilator token.",
                 "Valefar Assimilator Y": "When you would gain another players technology using 1 of your faction ability, you may place the 'Y' assimilator token on a faction technology owned by that player instead.  While that token is on a technology, this card gains that technology's text.  You cannot place an assimilator token on technology that already has an assimilator token."
@@ -340,7 +373,10 @@
             "faction": "The Sardakk N'orr",
             "image": "https://vignette.wikia.nocookie.net/twilight-imperium-worlds/images/0/07/Sardakk_N%27orr.PNG/revision/latest?cb=20181213070021",
             "abilities": "Apply +1 to the result of each of your unit's combat rolls.",
-            "promissory_note":"At the start of an invasion combat: Apply +1 to the result of each of your unit's combat rolls during this combat.  If your opponent is the N'orr player, apply -1 to the result of each of his unit's combat rolls during this combat. Then, return this card to the N'orr player.",
+            "promissory_note":{
+                "name": "Tekklar Legion",
+                "info": "At the start of an invasion combat: Apply +1 to the result of each of your unit's combat rolls during this combat.  If your opponent is the N'orr player, apply -1 to the result of each of his unit's combat rolls during this combat. Then, return this card to the N'orr player."
+            },
             "technologies": "After making combat rolls during a round of ground combat, if your opponent produced 1 or more hits, you produce 1 additional hit. Requirements: 2 Red",
             "unit_upgrades":[
                 {
@@ -382,7 +418,10 @@
                 "Brilliant": "When you spend a command token to resolve the secondary ability of the Technology strategy card, you may resolve the primary ability instead.",
                 "Analytical": "When you research a technology that is not a unit upgrade technology, you may ignore 1 prerequisite."
         },
-            "promissory_note":"Research Agreement: After the Jol-Nar player researches a technology that is not a faction technology: Gain that technology. Then, return this card to the Jol-Nar player.",
+            "promissory_note":{
+                "name": "Research Agreement",
+                "info": "After the Jol-Nar player researches a technology that is not a faction technology: Gain that technology. Then, return this card to the Jol-Nar player."
+            },
     
             "technologies": {
                 "E-Res Siphons": "After another player activates a system that contains 1 or more of your ships, gain 4 trade goods. Requirements: 2 Yellow",
@@ -427,7 +466,10 @@
                 "Blood Ties": "You do not have to spend influence to remove the custodian token from Mecatol Rex",
                 "Reclamation": "After you resolve a tactical action during which you gained control of Mecatol Rex, you may place 1 PDS and 1 space dock from your reinforcements on Mecatol Rex."
         },
-            "promissory_note":"At the end of the strategy phase: Exchange 1 of your strategy cards with a strategy card that was chosen by the Winnu player. Then, return this card to the Winnu player.",
+            "promissory_note":{
+                "name": "Acquiesence",
+                "info": "At the end of the strategy phase: Exchange 1 of your strategy cards with a strategy card that was chosen by the Winnu player. Then, return this card to the Winnu player."
+            },
     
             "technologies": {
                 "LazaxGateFolding": "During your tactical actions, if you do not control Mecatol Rex, treat its system as if it contains both an alpha and beta wormhole. ACTION: If you control Mecatol Rex, exhaust this card to place 1 infantry from your reinforcements on Mecatol Rex. Requirements: 2 Blue",
@@ -452,7 +494,10 @@
                 "PeaceAccords": "After you resolve the primary or secondary ability of the 'Diplomacy' strategy card, you may gain control of 1 planet other than Mecatol Rex that does not contain any units and is in a system that is adjacent to a planet you control.",
                 "Quash": "When an agenda is revealed, you may spend 1 token from your strategy pool to discard that agenda and reveal 1 agenda from the top of the deck.  Players vote on this agenda instead."
             },
-            "promissory_note":"After an agenda is revealed: Remove 1 token from the Xxcha player's strategy pool and return it to his reinforcements.  Then, discard the revealed agenda and reveal 1 agenda from the top of the deck.  Players vote on this agenda instead. Then, return this card to the Xxcha player.",
+            "promissory_note":{
+            "name": "Political Favor",
+            "info": "After an agenda is revealed: Remove 1 token from the Xxcha player's strategy pool and return it to his reinforcements.  Then, discard the revealed agenda and reveal 1 agenda from the top of the deck.  Players vote on this agenda instead. Then, return this card to the Xxcha player."
+        },
             "technologies": {
                 "NullificationField": "After another player activates a system that contains 1 or more of your ships, you may exhaust this card and spend 1 token from your strategy pool; immediately end that player's turn. Requirements: 2 Yellow",
                 "InstinctTraining": "You may exhaust this card and spend 1 token from your strategy pool when another player plays an action card; cancel that action card. Requirements: 1 Green"
@@ -476,7 +521,10 @@
                 "Indoctrination": "At the start of a ground combat, you may spend 2 influence to replace 1 of your opponent's participating infantry with 1 infantry from your reinforcements.",
                 "Devotion": "After each space battle round, you may destroy 1 of your cruisers or destroyers in the active system to produce 1 hit and assign it to 1 of your opponent's ships in that system."
             },
-            "promissory_note":"After a system is activated: The Yin player cannot use faction abilities or faction technology during this tactical action. Then, return this card to the Yin player.",
+            "promissory_note":{
+                "name": "Greyfire Mutagen",
+                "info": "After a system is activated: The Yin player cannot use faction abilities or faction technology during this tactical action. Then, return this card to the Yin player."
+            },
             "technologies": {
                 "ImpulseCore": "At the start of a space combat, you may destroy 1 of your cruisers or destroyers in the active system to produce 1 hit against your opponent's ships; that hit must be assigned by your opponent to 1 of his non-fighters ships if able. Requirements: 2 Yellow",
                 "YinSpinner": "After 1 or more of your units use PRODUCTION, place 1 infantry from your reinforcements on a planet you control in that system. Requirements: 2 Green"
@@ -501,7 +549,10 @@
                 "Scheming": "When you draw 1 or more action cards, draw 1 additional action card.  Then, choose and discard 1 action card from your hand.",
                 "Crafty": "You can have any number of action cards in your hand.  Game effects cannot prevent you from using this ability."
             },
-            "promissory_note":"At the start of your turn: Look at the Yssaril player's hand of action cards.  Choose 1 of those cards and add it to your hand. Then, return this card to the Yssaril player.",
+            "promissory_note":{
+                "name": "Spy Net",
+                "info": "At the start of your turn: Look at the Yssaril player's hand of action cards.  Choose 1 of those cards and add it to your hand. Then, return this card to the Yssaril player."
+            },
             "technologies": {
                 "TransparasteelPlating": "During your turn of the action phase, players that have passed cannot play action cards. Requirements: 1 Green",
                 "MageonImplants": "ACTION: Exhaust this card to look at another player's hand of action cards.  Choose 1 of those cards and add it to your hand.Requirements: 3 Green"
