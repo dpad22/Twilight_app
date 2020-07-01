@@ -1,0 +1,27 @@
+[
+    {
+        "faction": "The Winnu",
+        "image": "https://vignette.wikia.nocookie.net/ti3rpg/images/c/c9/Winnu.jpg/revision/latest/scale-to-width-down/340?cb=20130306162817",
+        "abilities": {
+            "BloodTies": "You do not have to spend influence to remove the custodian token from Mecatol Rex",
+            "Reclamation": "After you resolve a tactical action during which you gained control of Mecatol Rex, you may place 1 PDS and 1 space dock from your reinforcements on Mecatol Rex."
+    },
+        "promissory_note":"At the end of the strategy phase: Exchange 1 of your strategy cards with a strategy card that was chosen by the Winnu player. Then, return this card to the Winnu player.",
+
+        "technologies": {
+            "LazaxGateFolding": "During your tactical actions, if you do not control Mecatol Rex, treat its system as if it contains both an alpha and beta wormhole. ACTION: If you control Mecatol Rex, exhaust this card to place 1 infantry from your reinforcements on Mecatol Rex. Requirements: 2 Blue",
+            "HegemonicTradePolicy": "Exhaust this card when 1 or more of your units use PRODUCTION; swap the resource and influence values of 1 planet you control until the end of your turn. Requirements: 2 Yellow "
+        },
+        "flagship": {
+            "name": "Salai Sai Corian",
+            "cost": 8,
+            "combat": "7",
+            "move": 1,
+            "capacity": 3,
+            "abilities": ["Sustain Damage", "When this unit makes a combat roll, it rolls a number of dice equal to the number of your opponet's non-fighter ships in the system."]
+        },
+        "government": ["Imperial, Objective"],
+        "quote": "We will claim what is ours by right, cousins. We will fulfill the destiny of those who came before us, and your treachery will not be forgotten."
+        
+    }
+]

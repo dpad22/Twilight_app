@@ -1,0 +1,27 @@
+[
+    {
+        "faction": "The Yssaril Tribes",
+        "image": "https://vignette.wikia.nocookie.net/twilight-imperium-worlds/images/7/7c/Yssaril_Tribes.PNG/revision/latest?cb=20181213101519",
+        "abilities": {
+            "StallTactics": "ACTION: Discard 1 action card from your hand.",
+            "Scheming": "When you draw 1 or more action cards, draw 1 additional action card.  Then, choose and discard 1 action card from your hand.",
+            "Crafty": "You can have any number of action cards in your hand.  Game effects cannot prevent you from using this ability."
+        },
+        "promissory_note":"At the start of your turn: Look at the Yssaril player's hand of action cards.  Choose 1 of those cards and add it to your hand. Then, return this card to the Yssaril player.",
+        "technologies": {
+            "TransparasteelPlating": "During your turn of the action phase, players that have passed cannot play action cards. Requirements: 1 Green",
+            "MageonImplants": "ACTION: Exhaust this card to look at another player's hand of action cards.  Choose 1 of those cards and add it to your hand.Requirements: 3 Green"
+        },
+        "flagship": {
+            "name": "Y'sia Y'ssrila",
+            "cost": 8,
+            "combat": "5x2",
+            "move": 2,
+            "capacity": 3,
+            "abilities": ["Sustain Damage", "This ship can move through systems that contain other player's ships."]
+        },
+        "government": ["Guild of Spies, Political"],
+        "quote": "Clever Ssruu has met the offworlder and made it dead. What does the Guild want for Ssruu to meet next?."
+        
+    }
+]

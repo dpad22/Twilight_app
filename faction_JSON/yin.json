@@ -1,0 +1,26 @@
+[
+    {
+        "faction": "The Yin Brotherhood",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR63mdJandsNGfFRRUl6M3Fp1JWsP909dzinQ&usqp=CAU",
+        "abilities": {
+            "Indoctrination": "At the start of a ground combat, you may spend 2 influence to replace 1 of your opponent's participating infantry with 1 infantry from your reinforcements.",
+            "Devotion": "After each space battle round, you may destroy 1 of your cruisers or destroyers in the active system to produce 1 hit and assign it to 1 of your opponent's ships in that system."
+        },
+        "promissory_note":"After a system is activated: The Yin player cannot use faction abilities or faction technology during this tactical action. Then, return this card to the Yin player.",
+        "technologies": {
+            "ImpulseCore": "At the start of a space combat, you may destroy 1 of your cruisers or destroyers in the active system to produce 1 hit against your opponent's ships; that hit must be assigned by your opponent to 1 of his non-fighters ships if able. Requirements: 2 Yellow",
+            "YinSpinner": "After 1 or more of your units use PRODUCTION, place 1 infantry from your reinforcements on a planet you control in that system. Requirements: 2 Green"
+        },
+        "flagship": {
+            "name": "Van Hauge",
+            "cost": 8,
+            "combat": "9x2",
+            "move": 1,
+            "capacity": 3,
+            "abilities": ["Sustain Damage", "When this ship is destroyed, destroy all ships in this system."]
+        },
+        "government": ["The Blessed, Military"],
+        "quote": "A-ha! You mistake me for a human; that we share the blood of Jord. I am no son of humanity. My life for the Yin!"
+        
+    }
+]

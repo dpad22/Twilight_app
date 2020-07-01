@@ -419,6 +419,104 @@
             "government": ["Circle of Regents, Scientific"],
             "quote": "We cannot halt progress for the sake of morality. If you have not the stomach for science, then i suggest you depart Wun-Escha immediately."
             
+        },
+        {
+            "faction": "The Winnu",
+            "image": "https://vignette.wikia.nocookie.net/ti3rpg/images/c/c9/Winnu.jpg/revision/latest/scale-to-width-down/340?cb=20130306162817",
+            "abilities": {
+                "Blood Ties": "You do not have to spend influence to remove the custodian token from Mecatol Rex",
+                "Reclamation": "After you resolve a tactical action during which you gained control of Mecatol Rex, you may place 1 PDS and 1 space dock from your reinforcements on Mecatol Rex."
+        },
+            "promissory_note":"At the end of the strategy phase: Exchange 1 of your strategy cards with a strategy card that was chosen by the Winnu player. Then, return this card to the Winnu player.",
+    
+            "technologies": {
+                "LazaxGateFolding": "During your tactical actions, if you do not control Mecatol Rex, treat its system as if it contains both an alpha and beta wormhole. ACTION: If you control Mecatol Rex, exhaust this card to place 1 infantry from your reinforcements on Mecatol Rex. Requirements: 2 Blue",
+                "HegemonicTradePolicy": "Exhaust this card when 1 or more of your units use PRODUCTION; swap the resource and influence values of 1 planet you control until the end of your turn. Requirements: 2 Yellow "
+            },
+            "flagship": {
+                "name": "Salai Sai Corian",
+                "cost": 8,
+                "combat": "7",
+                "move": 1,
+                "capacity": 3,
+                "abilities": ["Sustain Damage", "When this unit makes a combat roll, it rolls a number of dice equal to the number of your opponet's non-fighter ships in the system."]
+            },
+            "government": ["Imperial, Objective"],
+            "quote": "We will claim what is ours by right, cousins. We will fulfill the destiny of those who came before us, and your treachery will not be forgotten."
+            
+        },
+        {
+            "faction": "The Xxcha Kingdom",
+            "image": "https://vignette.wikia.nocookie.net/twilight-imperium-worlds/images/1/1e/Xxcha_Kingdom.PNG/revision/latest?cb=20181213030029",
+            "abilities": {
+                "PeaceAccords": "After you resolve the primary or secondary ability of the 'Diplomacy' strategy card, you may gain control of 1 planet other than Mecatol Rex that does not contain any units and is in a system that is adjacent to a planet you control.",
+                "Quash": "When an agenda is revealed, you may spend 1 token from your strategy pool to discard that agenda and reveal 1 agenda from the top of the deck.  Players vote on this agenda instead."
+            },
+            "promissory_note":"After an agenda is revealed: Remove 1 token from the Xxcha player's strategy pool and return it to his reinforcements.  Then, discard the revealed agenda and reveal 1 agenda from the top of the deck.  Players vote on this agenda instead. Then, return this card to the Xxcha player.",
+            "technologies": {
+                "NullificationField": "After another player activates a system that contains 1 or more of your ships, you may exhaust this card and spend 1 token from your strategy pool; immediately end that player's turn. Requirements: 2 Yellow",
+                "InstinctTraining": "You may exhaust this card and spend 1 token from your strategy pool when another player plays an action card; cancel that action card. Requirements: 1 Green"
+            },
+            "flagship": {
+                "name": "Loncarra Ssodu",
+                "cost": 8,
+                "combat": "7x2",
+                "move": 1,
+                "capacity": 3,
+                "abilities": ["Sustain Damage", "Space Cannon 5 (x3) You may use this unit's SPACE CANNON against ships that are in adjacent systems."]
+            },
+            "government": ["Monarchy, Political"],
+            "quote": "To fight without cause is not the way, human. Curb your anger. Let us walk through the gardens and consider how to proceed."
+            
+        },
+        {
+            "faction": "The Yin Brotherhood",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR63mdJandsNGfFRRUl6M3Fp1JWsP909dzinQ&usqp=CAU",
+            "abilities": {
+                "Indoctrination": "At the start of a ground combat, you may spend 2 influence to replace 1 of your opponent's participating infantry with 1 infantry from your reinforcements.",
+                "Devotion": "After each space battle round, you may destroy 1 of your cruisers or destroyers in the active system to produce 1 hit and assign it to 1 of your opponent's ships in that system."
+            },
+            "promissory_note":"After a system is activated: The Yin player cannot use faction abilities or faction technology during this tactical action. Then, return this card to the Yin player.",
+            "technologies": {
+                "ImpulseCore": "At the start of a space combat, you may destroy 1 of your cruisers or destroyers in the active system to produce 1 hit against your opponent's ships; that hit must be assigned by your opponent to 1 of his non-fighters ships if able. Requirements: 2 Yellow",
+                "YinSpinner": "After 1 or more of your units use PRODUCTION, place 1 infantry from your reinforcements on a planet you control in that system. Requirements: 2 Green"
+            },
+            "flagship": {
+                "name": "Van Hauge",
+                "cost": 8,
+                "combat": "9x2",
+                "move": 1,
+                "capacity": 3,
+                "abilities": ["Sustain Damage", "When this ship is destroyed, destroy all ships in this system."]
+            },
+            "government": ["The Blessed, Military"],
+            "quote": "A-ha! You mistake me for a human; that we share the blood of Jord. I am no son of humanity. My life for the Yin!"
+            
+        },
+        {
+            "faction": "The Yssaril Tribes",
+            "image": "https://vignette.wikia.nocookie.net/twilight-imperium-worlds/images/7/7c/Yssaril_Tribes.PNG/revision/latest?cb=20181213101519",
+            "abilities": {
+                "StallTactics": "ACTION: Discard 1 action card from your hand.",
+                "Scheming": "When you draw 1 or more action cards, draw 1 additional action card.  Then, choose and discard 1 action card from your hand.",
+                "Crafty": "You can have any number of action cards in your hand.  Game effects cannot prevent you from using this ability."
+            },
+            "promissory_note":"At the start of your turn: Look at the Yssaril player's hand of action cards.  Choose 1 of those cards and add it to your hand. Then, return this card to the Yssaril player.",
+            "technologies": {
+                "TransparasteelPlating": "During your turn of the action phase, players that have passed cannot play action cards. Requirements: 1 Green",
+                "MageonImplants": "ACTION: Exhaust this card to look at another player's hand of action cards.  Choose 1 of those cards and add it to your hand.Requirements: 3 Green"
+            },
+            "flagship": {
+                "name": "Y'sia Y'ssrila",
+                "cost": 8,
+                "combat": "5x2",
+                "move": 2,
+                "capacity": 3,
+                "abilities": ["Sustain Damage", "This ship can move through systems that contain other player's ships."]
+            },
+            "government": ["Guild of Spies, Political"],
+            "quote": "Clever Ssruu has met the offworlder and made it dead. What does the Guild want for Ssruu to meet next?."
+            
         }
 
 ]
