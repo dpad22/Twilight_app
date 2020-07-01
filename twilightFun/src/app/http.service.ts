@@ -63,4 +63,20 @@ export class HttpService {
   public getJolApi(){
     return this._httpClient.get("https://raw.githubusercontent.com/dpad22/Twilight_app/master/faction_JSON/jol_nar.json");
   }
+
+  public getWinnuApi(){
+    return this._httpClient.get("https://raw.githubusercontent.com/dpad22/Twilight_app/master/faction_JSON/winnu.json");
+  }
+
+  public getXxchaApi(){
+    return this._httpClient.get("https://raw.githubusercontent.com/dpad22/Twilight_app/master/faction_JSON/xxcha.json");
+  }
+
+  public getYinApi(){
+    return this._httpClient.get("https://raw.githubusercontent.com/dpad22/Twilight_app/master/faction_JSON/yin.json");
+  }
+
+  public getYssarilApi(){
+    return this._httpClient.get("https://raw.githubusercontent.com/dpad22/Twilight_app/master/faction_JSON/yssaril.json");
+  }
 }

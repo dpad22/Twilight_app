@@ -22,6 +22,10 @@ import { NaaluComponent } from './naalu/naalu.component';
 import { NekroComponent } from './nekro/nekro.component';
 import { SardakkComponent } from './sardakk/sardakk.component';
 import { JolComponent } from './jol/jol.component';
+import { WinnuComponent } from './winnu/winnu.component';
+import { XxchaComponent } from './xxcha/xxcha.component';
+import { YinComponent } from './yin/yin.component';
+import { YssarilComponent } from './yssaril/yssaril.component';
 
 
 @NgModule({
@@ -43,6 +47,10 @@ import { JolComponent } from './jol/jol.component';
     NekroComponent,
     SardakkComponent,
     JolComponent,
+    WinnuComponent,
+    XxchaComponent,
+    YinComponent,
+    YssarilComponent,
     
   ],
   imports: [

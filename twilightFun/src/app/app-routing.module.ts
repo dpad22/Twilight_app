@@ -16,6 +16,10 @@ import { NaaluComponent } from './naalu/naalu.component';
 import { NekroComponent } from './nekro/nekro.component';
 import { SardakkComponent } from './sardakk/sardakk.component';
 import { JolComponent } from './jol/jol.component';
+import { WinnuComponent } from './winnu/winnu.component';
+import { XxchaComponent } from './xxcha/xxcha.component';
+import { YinComponent } from './yin/yin.component';
+import { YssarilComponent } from './yssaril/yssaril.component';
 
 const routes: Routes = [
   { path: "",component:HomeComponent},
@@ -34,6 +38,10 @@ const routes: Routes = [
   { path: "nekro",component:NekroComponent},
   { path: "sardakk",component:SardakkComponent},
   { path: "jol",component:JolComponent},
+  { path: "winnu",component:WinnuComponent},
+  { path: "xxcha",component:XxchaComponent},
+  { path: "yin",component:YinComponent},
+  { path: "yssaril",component:YssarilComponent},
 
 
   
