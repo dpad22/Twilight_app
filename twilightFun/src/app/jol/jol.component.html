@@ -1,0 +1,86 @@
+<div class="col-sm-8" id="factions">
+    <div class="container">
+        <h1>{{faction[0].faction}}</h1>
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="{{faction[0].image}}" alt="Creuss Image" width="350" height="400">
+            </div>
+            <div class="col-sm-6">
+                <h5 class="h5_Header">Government Type</h5>
+                <ul>
+                    <li>{{faction[0].government}}</li>
+                </ul>
+                <h5 class="h5_Header">Technologies</h5>
+                <ul>
+                    <li><span>E-Res Siphons: </span>{{faction[0].technologies.E_ResSiphons}}</li>
+                    <li><span>Spacial Conduit Cylinder: </span>{{faction[0].technologies.SpacialConduitCylinder}}</li>
+                </ul>
+
+                <h5 class="h5_Header">Promissory Note</h5>
+                <ul>
+                    <li><span>Research Agreement: </span>{{faction[0].promissory_note}}</li>
+                </ul>
+
+                <h5 class="h5_Header">Faction Abilities</h5>
+                <ul>
+                    <li><span>Fragile: </span>{{faction[0].abilities.Fragile}}</li>
+                    <li><span>Brilliant: </span>{{faction[0].abilities.Brilliant}}</li>
+                    <li><span>Analytical: </span>{{faction[0].abilities.Analytical}}</li>
+                </ul>
+
+            </div>
+        </div>
+
+
+    </div>
+    <hr style="color: white;">
+    <div>
+        <h5 class="h5_Header">Flagship: {{faction[0].flagship.name}}</h5>
+        <ul>
+            <li><span>Cost:</span> {{faction[0].flagship.cost}}</li>
+            <li><span>Combat Roll:</span> {{faction[0].flagship.combat}}</li>
+            <li><span>Move:</span> {{faction[0].flagship.move}}</li>
+            <li><span>Capacity:</span> {{faction[0].flagship.capacity}}</li>
+            <li><span>Abilities:</span> {{faction[0].flagship.abilities}}</li>
+            
+        </ul>
+    </div>
+    <div>
+        <h5 class="h5_Header">Special Unit: {{faction[0].unit_upgrades[0].name}}</h5>
+        <ul>
+            <li><span>Cost:</span> {{faction[0].unit_upgrades[0].cost}}</li>
+            <li><span>Combat Roll:</span> {{faction[0].unit_upgrades[0].combat}}</li>
+            <li><span>Move:</span> {{faction[0].unit_upgrades[0].move}}</li>
+            <li><span>Capacity:</span> {{faction[0].unit_upgrades[0].capacity}}</li>
+            <li><span>Abilities:</span> {{faction[0].unit_upgrades[0].abilities}}</li>
+            <li><span>Pre-Reqs:</span> {{faction[0].unit_upgrades[0].prerequisites}}</li>
+        </ul>
+        <h5 class="h5_Header">Special Unit: {{faction[0].unit_upgrades[1].name}}</h5>
+        <ul>
+            <li><span>Cost:</span> {{faction[0].unit_upgrades[1].cost}}</li>
+            <li><span>Combat Roll:</span> {{faction[0].unit_upgrades[1].combat}}</li>
+            <li><span>Move:</span> {{faction[0].unit_upgrades[1].move}}</li>
+            <li><span>Capacity:</span> {{faction[0].unit_upgrades[1].capacity}}</li>
+            <li><span>Abilities:</span> {{faction[0].unit_upgrades[1].abilities}}</li>
+            <li><span>Pre-Reqs:</span> {{faction[0].unit_upgrades[1].prerequisites}}</li>
+        </ul>
+        
+    </div>
+
+    <h5 class="h5_Header">Lore</h5>
+    <p>Most technological devices used in the galaxy today have at least one or two components originating from the Jol Nar laboratories. During the height of the Lazax Imperium, the galaxy was even more reliant on the underlying Jol Nar technology and the knowledge of the aquatic Hylar. This reliance on Jol Nar engineers and skills was one of the key factors leading to the total collapse of galactic civilization and its decent into the Dark Years that followed the Twilight Wars.</p>
+<br>
+    <p>When the Twilight Wars first began the Jol Nar closed their embassies, withdrew their workers and started a war of aggression on their own. Among the other races, only few individuals remained who now understood the complex Jol Nar machinery, virtual code and chemical compounds. Soon, fundamental machinery started failing, setting off a chain reaction of integrated technological failures over a period of hundreds of years. Combined with devastating wars, this spurred massive famine, poverty and chaos. As cultures, economies and finally the tools of war completely collapsed the Twilight Wars quickly ebbed and the Dark Years began.</p>
+<br>        
+    <p>Even the Jol Nar were devastated by the Twilight Wars. Although the rest of the galaxy had relied on their technologies, so had the Jol Nar relied on the income, protection and natural resources of others. The arrogance of the High Scholars spurred them to wage a sudden aggressive war after the Quaan conflict erupted. Then a few years later the Doolak plague destroyed nearly a quarter of the Jol Nar population, causing a massive loss of knowledge by itself. The Jol Nar aggression soon turned defensive and the powerful N’orr looked to conquer all Jol Nar space. Only after a decisive Jol Nar victory in the Saudor system did the Hylar receive a needed respite.</p>
+<br>        
+    <p>Like azure sapphires, the twin ocean planets of Jol and Nar slowly circle the Garian star. Under their waters lies the great civilization of the Hylar, a water breathing, soft boned species with oversized heads and intellects to match. The Hylar are governed by an ancient system of high scholars, who combined are called the University. A single Hylar ruler, the Headmaster, oversees the Hylar from the deep underwater city of Wun-Escha on the planet of Jol. Under the Headmaster, the Circle of Regents governs the local regions and specific areas of knowledge.</p>
+<br>        
+    <p>Although the Hylar are often considered one race, there are in fact several distinct variations within the Hylar species, mainly derivative of the geographical region and ocean depth from which they hail. Most Hylar are capable of breathing surface air and some can exist for weeks without being sibmerged. Others cannot breath surface air at all and must travel in massive tanks when off-planet. None know how an underwater race came to be masters of technology. Most agree that the large bio-cerebral area of the Hylar physique, combined with a need to adapt their soft-boned and slow bodies to their environment, created an evolution of material usage as opposed to one of physical adaptation.</p>
+<br>       
+    <p>Despite their physical weaknesses, the Hylar are a proud people, often to the point of abrasiveness and arrogance. Since the catastrophic Dark Years, the Hylar have started utilizing the natural resources of their own planets and they now extract metalsand medicines from the many algae and coral formations of both Jol and Nar. As a new age nears, the Hylar once more strive for the influence they feel they have earned. The Circle f Regents has secretly decided that the Hylar must take the place of the Lazax in governing and advancing a new united galaxy. Under their mandate, the Headmaster has begun building his forces and Jol Nar diplomats and engineers have started appearing among the other civilization in large numbers appearing friendly but with hidden agendas. Soon the Headmaster will make his claim for the empire and the galaxy will enter an age of technological advancement and intellectual achievement.</p>
+    
+</div>
+
+
+
