@@ -310,5 +310,69 @@
                         "government": ["Collective, Military"],
                         "quote": "You insult me ssskinling. Ze monstrosity you suggest-ze Druua, we are not capable of such cruelty. Purge zis madness from your mind and leave zis world."
                         
+                    },
+                    {
+                        "faction": "The Nekro Virus",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSmXPPh5fV9g9cDyniImCnMH4DpAUbf7zp5qA&usqp=CAU",
+                        "abilities": {
+                            "Galactic Threat": "You cannot vote on agendas.  Once per agenda phase, after an agenda is revealed, you may predict aloud the outcome of that agenda.  If your prediction is correct, gain 1 technology that is owned by a player who voted how you predicted.",
+                            "Technological Singularity": "Once per combat, after 1 of your opponent's units is destroyed, you may gain 1 technology that is owned by that player.",
+                            "Propagation": "You cannot research technology.  When you would research a technology, gain 3 command tokens instead."
+                        },
+                        "promissory_note":"Antivirus: At the start of combat: Place this card face-up in your play area. While this card is in your play area, the Nekro player cannot use his TECHNOLOGICAL SINGULARITY faction ability against you. If you activate a system that contains 1 or more of the Nekro player's units, return this card to the Nekro player.",
+                        "technologies": {
+                            "Valefar Assimilator X": "When you would gain another players technology using 1 of your faction ability, you may place the 'X' assimilator token on a faction technology owned by that player instead.  While that token is on a technology, this card gains that technology's text.  You cannot place an assimilator token on technology that already has an assimilator token.",
+                            "Valefar Assimilator Y": "When you would gain another players technology using 1 of your faction ability, you may place the 'Y' assimilator token on a faction technology owned by that player instead.  While that token is on a technology, this card gains that technology's text.  You cannot place an assimilator token on technology that already has an assimilator token."
+                        },
+                        "flagship": {
+                            "name": "The Alastor",
+                            "cost": 8,
+                            "combat": "9x2",
+                            "move": 1,
+                            "capacity": 3,
+                            "abilities": ["Sustain Damage", "At the start of a space combat, choose any number of your ground forces in this system to participate in that combat as if they were ships."]
+                        },
+                        "government": ["...error, ...error"],
+                        "quote": "The final step of all craft. The gate to eternity. A transcendency to a state of being that can only be described as godhood"
+                        
+                    },
+                    {
+                        "faction": "The Sardakk N'orr",
+                        "image": "https://vignette.wikia.nocookie.net/twilight-imperium-worlds/images/0/07/Sardakk_N%27orr.PNG/revision/latest?cb=20181213070021",
+                        "abilities": "Apply +1 to the result of each of your unit's combat rolls.",
+                        "promissory_note":"At the start of an invasion combat: Apply +1 to the result of each of your unit's combat rolls during this combat.  If your opponent is the N'orr player, apply -1 to the result of each of his unit's combat rolls during this combat. Then, return this card to the N'orr player.",
+                        "technologies": "After making combat rolls during a round of ground combat, if your opponent produced 1 or more hits, you produce 1 additional hit. Requirements: 2 Red",
+                        "unit_upgrades":[
+                            {
+                            "name": "Exotrireme I",
+                            "cost": 4,
+                            "combat": 5,
+                            "move": 1,
+                            "capacity": 1,
+                            "abilities": ["Sustain damage, Bombardment 4 (x2)"],
+                            "prerequisites": "none"
+                            },
+                            {
+                            "name": "Exotrireme II",
+                            "cost": 4,
+                            "combat": 5,
+                            "move": 2,
+                            "capacity": 1,
+                            "abilities": ["Sustain damage, Bombardment 4 (x2). This unit cannot be destroyed by 'Direct Hit' action cards.  After a round of space combat, you may destroy this unit to destroy up to 2 ships in this system."],
+                            "prerequisites": "2 Blue, 1 Yellow"
+                            }
+                        ],
+                        "flagship": {
+                            "name": "C'Morran N'orr",
+                            "cost": 8,
+                            "combat": "6x2",
+                            "move": 1,
+                            "capacity": 3,
+                            "abilities": ["Sustain Damage", "Apply +1 to the result of each of your other ship's combat rolls in this system."]
+                        },
+                        "government": ["Veiled Brood, Military"],
+                        "quote": "Fear is death. Most of you will die. The queen mother thanks you for your worthy sacrifice."
+                        
                     }
+
 ]
