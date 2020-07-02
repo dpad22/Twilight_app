@@ -1,14 +1,15 @@
-<div class="col-sm-8" id="factions">
-    <h1>Factions</h1>
+    <div class="col-sm-8" id="factions">
+        <h1>Factions</h1>
+        <p>{{factions | json}}</p>
+        <div class="media" *ngFor="let faction of factions">
+            <img class="mr-3" src="{{faction.image}}" alt="{{faction.faction}}" width="200" height="200">
+            <div class="media-body">
+                <h3 class="faction-name">{{faction.faction}}</h3>
+                <h5>{{faction.quote}}</h5>
+                {{faction._id}}
 
-    <div class="media" *ngFor="let faction of factions">
-        <img class="mr-3" src="{{faction.image}}" alt="{{faction.faction}}" width="200" height="200">
-        <div class="media-body">
-            <h3 class="faction-name">{{faction.faction}}</h3>
-            <h5>{{faction.quote}}</h5>
-
+            </div>
         </div>
+        
     </div>
-    
-</div>
 

@@ -5,8 +5,12 @@ var path = require("path");
 
 module.exports = function(app){
 
-    app.get("/display", faction.index);
+    app.get("/factions", faction.index);
 
-    app.get("/display/:id", faction.findFaction);
+    app.get("/factions/:id", faction.findFaction);
+
+    app.all("*",(req,res,next)=> {
+        res.sendFile(path.resolve("./twilightFun/dist/twilightFun/index.html"))
+    });
 
 }

@@ -2,12 +2,18 @@
     {
         "faction": "The Arborec",
         "image": "https://miro.medium.com/max/361/1*zTAqWIxzpC_Zde_9Y5B4FA.jpeg",
-        "abilities": ["Your space docks cannot produce infantry.  At the start of the status phase , place 1 infantry from your reinforcements on any planet you control."],
+        "abilities": [{
+            "name": "Mitosis",
+            "info": "Your space docks cannot produce infantry.  At the start of the status phase , place 1 infantry from your reinforcements on any planet you control."
+        }],
         "promissory_note":{
             "name": "Stymie",
             "info": "ACTION: Place this card face up in your play area. While this card is in your play area, the Arborec player cannot produce units in or adjacent to non-home systems that contain 1 or more of your units. If you activate a system that contains 1 or more of the Arborec player's units, return this card to the Arborec player."
         },
-        "technologies": "At the end of the status phase , you may remove any number of infantry from planets you control and place them on 1 or more planets you control in the same or adjacent systems. Requirements: 2 Green",
+        "technologies": [{
+            "name": "Bioplasmosis",
+            "info": "At the end of the status phase , you may remove any number of infantry from planets you control and place them on 1 or more planets you control in the same or adjacent systems. Requirements: 2 Green"
+        }],
         "unit_upgrades":[
             {
             "name": "Letani Warrior",
@@ -39,18 +45,20 @@
     {
         "faction": "The Barony of Letnev",
         "image": "https://preview.redd.it/sswzp67qdcc41.jpg?width=371&format=pjpg&auto=webp&s=de8333a4964ac8d4611c0f3a56fecf470b3ccbd4",
-        "abilities": {
+        "abilities": [
+            {
             "Munitions_Reserves": "At the start of each round of space combat, you may spend 2 trade goods;  you may re-roll any number of your dice during that combat round.",
             "Armada": "The maximum number of non-fighter ships you can have in each system is equal to 2 more than the number of tokens in your fleet pool."
-        },
+        }
+    ],
         "promissory_note":{
             "name": "War Funding",
             "info":"At the start of a round of space combat: The Letnev player loses 2 trade goods. During this combat round, re-roll any number of your dice. Then, return this card to the Letnev player."
         },
-        "technologies": {
+        "technologies": [{
             "L4_Disruptors": "During an invasion, units cannot use SPACE CANNON against your units. Requirements: Yellow",
             "NonEuclideanShielding": "When 1 of your units uses SUSTAIN DAMAGE, cancel 2 hits instead of 1. Requirements: 2 Red"
-        },
+        }],
         "flagship": {
             "name": "Arc Secundus",
             "cost": 8,

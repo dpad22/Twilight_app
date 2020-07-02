@@ -20,28 +20,31 @@ import { WinnuComponent } from './winnu/winnu.component';
 import { XxchaComponent } from './xxcha/xxcha.component';
 import { YinComponent } from './yin/yin.component';
 import { YssarilComponent } from './yssaril/yssaril.component';
+import { AppComponent } from './app.component';
+import { ShowComponent } from './show/show.component';
 
 const routes: Routes = [
   { path: "",component:HomeComponent},
+  { path: "factions/:id", component:ShowComponent},
   { path: "factions",component:FactionsComponent},
-  { path: "companion",component:CompanionComponent},
-  { path: "arborec",component:ArborecComponent},
-  { path: "barony",component:BaronyComponent},
-  { path: "sarr",component:SarrComponent},
-  { path: "muaat",component:MuaatComponent},
-  { path: "hacan",component:HacanComponent},
-  { path: "sol",component:SolComponent},
-  { path: "creuss",component:CreussComponent},
-  { path: "l1z1x",component:L1z1xComponent},
-  { path: "mentak",component:MentakComponent},
-  { path: "naalu",component:NaaluComponent},
-  { path: "nekro",component:NekroComponent},
-  { path: "sardakk",component:SardakkComponent},
-  { path: "jol",component:JolComponent},
-  { path: "winnu",component:WinnuComponent},
-  { path: "xxcha",component:XxchaComponent},
-  { path: "yin",component:YinComponent},
-  { path: "yssaril",component:YssarilComponent},
+  // { path: "companion",component:CompanionComponent},
+  // { path: "arborec",component:ArborecComponent},
+  // { path: "barony",component:BaronyComponent},
+  // { path: "sarr",component:SarrComponent},
+  // { path: "muaat",component:MuaatComponent},
+  // { path: "hacan",component:HacanComponent},
+  // { path: "sol",component:SolComponent},
+  // { path: "creuss",component:CreussComponent},
+  // { path: "l1z1x",component:L1z1xComponent},
+  // { path: "mentak",component:MentakComponent},
+  // { path: "naalu",component:NaaluComponent},
+  // { path: "nekro",component:NekroComponent},
+  // { path: "sardakk",component:SardakkComponent},
+  // { path: "jol",component:JolComponent},
+  // { path: "winnu",component:WinnuComponent},
+  // { path: "xxcha",component:XxchaComponent},
+  // { path: "yin",component:YinComponent},
+  // { path: "yssaril",component:YssarilComponent},
 
 
   

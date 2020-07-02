@@ -11,72 +11,24 @@ integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9If
   </div>
 </div>
 
-    <div class="col-sm-4" id="sideBar">
-      <ul class="nav flex-column">
-        <li class="nav-item">
-          <a class="nav-link" href="/">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" [routerLink]="['factions']">Factions</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" [routerLink]="['companion']">Companion Table</a>
-        </li>
-          <ul>
-            <li class="nav-item">
-              <a class="nav-link" [routerLink]="['arborec']">The Arborec</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" [routerLink]="['barony']">The Barony</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" [routerLink]="['sarr']">The Clan of Saar</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" [routerLink]="['muaat']">The Embers of Muaat</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" [routerLink]="['hacan']">The Emirates of Hacan</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" [routerLink]="['sol']">The Federation of Sol</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" [routerLink]="['creuss']">The Ghosts of Creuss</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" [routerLink]="['l1z1x']">The L1Z1X Mindnet</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" [routerLink]="['mentak']">The Mentak Coalition</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" [routerLink]="['naalu']">The Naalu Collective</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" [routerLink]="['nekro']">The Nekro Virus</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" [routerLink]="['sardakk']">The Sardakk N'orr</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" [routerLink]="['jol']">The Universities of Jol-Nar</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" [routerLink]="['winnu']">The Winnu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" [routerLink]="['xxcha']">The Xxcha Kingdom</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" [routerLink]="['yin']">The Yin Brotherhood</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" [routerLink]="['yssaril']">The Yssaril Tribes</a>
-            </li>
-          </ul>
-      </ul>
-    </div>
+<div class="col-sm-4" id="sideBar">
+  <ul class="nav flex-column">
+  <li class="nav-item">
+      <a class="nav-link" href="/">About</a>
+  </li>
+  </ul>
+  <li class="nav-item">
+    <a class="nav-link" [routerLink]="['factions']">Factions</a>
+</li>
+  <ul *ngFor="let faction of factions">
+      <li class="nav-item">
+          <a class="nav-link" [routerLink]="['factions/factions_id']">{{faction.faction}}</a>
+      </li>
+  </ul>
+  <li class="nav-item">
+      <a class="nav-link" [routerLink]="['companion']">Companion Table</a>
+  </li>
+</div>
 
 
 

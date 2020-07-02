@@ -9,22 +9,23 @@ import { Router } from "@angular/router";
   styleUrls: ['./factions.component.scss']
 })
 export class FactionsComponent implements OnInit {
-factions: any;
-faction: String;
-image: String;
-quote: String;
+factions: any = [];
 
 
   constructor(private _httpService: HttpService, private router: Router) { }
 
   ngOnInit() {
-    this._httpService.getFactions().subscribe((data)=> {
+    this.getFactionsFromService();
+    
+  }
+
+  getFactionsFromService(){
+    let observable = this._httpService.getAllFactions();
+    observable.subscribe((data) => {
       this.factions = data;
       console.log("*****************")
       console.log(this.factions)
       console.log("*****************")
-
-
-    });
+    })
   }
 }

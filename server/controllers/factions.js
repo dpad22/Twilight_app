@@ -8,6 +8,7 @@ module.exports = {
     index: (req, res) => {
         Faction.find()
             .then(data => {
+                console.log("index route")
                 console.log(data)
                 res.json(data);
             })

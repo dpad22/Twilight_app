@@ -13,7 +13,7 @@ export class CompanionComponent implements OnInit {
   faction:any;
   image: String;
   abilities: any;
-  promissory_note: String;
+  promissory_note: any;
   technologies: any;
   unit_upgrades: any;
   flagship: any;
@@ -26,7 +26,7 @@ export class CompanionComponent implements OnInit {
   ngOnInit() {
     this._httpService.getFactions().subscribe((data) => {
       this.factions = data;
-      console.log(this.faction)
+      console.log(this.factions)
       this.image = data['image']
       this.abilities = data['abilities']
       this.promissory_note = data['promissory_note']

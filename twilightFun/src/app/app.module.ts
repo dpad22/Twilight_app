@@ -26,6 +26,7 @@ import { WinnuComponent } from './winnu/winnu.component';
 import { XxchaComponent } from './xxcha/xxcha.component';
 import { YinComponent } from './yin/yin.component';
 import { YssarilComponent } from './yssaril/yssaril.component';
+import { ShowComponent } from './show/show.component';
 
 
 @NgModule({
@@ -51,6 +52,7 @@ import { YssarilComponent } from './yssaril/yssaril.component';
     XxchaComponent,
     YinComponent,
     YssarilComponent,
+    ShowComponent,
     
   ],
   imports: [
