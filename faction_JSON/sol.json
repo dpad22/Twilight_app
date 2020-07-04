@@ -1,12 +1,53 @@
 [
     {
+        "_id": 6,
         "faction": "The Federation of Sol",
             "image": "https://external-preview.redd.it/6tFumLxWUkUQT3msuf9qmg0QQgPg-XKRIa4u-SZZYA8.jpg?auto=webp&s=cef6b628202ea9f563e481838255104441921556",
-            "abilities": {
-                "Orbital_Drop": "ACTION: Spend 1 token from your strategy pool to place 2 infantry from your reinforcements on 1 planet you control.",
-                "Versatile": "When you gain command tokens during the status phase, gain 1 additional command token."
+            "abilities": [{
+                "name": "Orbital_Drop",
+                "info": "ACTION: Spend 1 token from your strategy pool to place 2 infantry from your reinforcements on 1 planet you control."},
+                {
+                "name": "Versatile",
+                "info": "When you gain command tokens during the status phase, gain 1 additional command token."
+            }],
+            "promissory_note": {
+                "name": "Military Support",
+                "info": "At the start of the Sol player's turn: Remove 1 token from the Sol player's strategy pool, if able, and return it to his reinforcements. Then, you may place 2 infantry from your reinforcements on any planet you control. Then return this card to the Sol player."
             },
-            "promissory_note":"At the start of the Sol player's turn: Remove 1 token from the Sol player's strategy pool, if able, and return it to his reinforcements. Then, you may place 2 infantry from your reinforcements on any planet you control. Then return this card to the Sol player.",
+            "unit_upgrades":[
+                {
+                "name": "Spec Ops I",
+                "cost": "1x2",
+                "combat": 7,
+                "abilities": "none",
+                "prerequisites": "none"
+                },
+                {
+                "name": "Spec Ops II",
+                "cost": "1x2",
+                "combat": 6,
+                "abilities": "After this unit is destroyed, roll 1 die. If the result is 5 or greater, place the unit on this card. At the start of your next turn, place each unit that is on this card on a planet you control in your home system.",
+                "prerequisites": "2 Green"
+                },
+                {
+                "name": "Advanced Carrier I",
+                "cost": "3",
+                "combat": 9,
+                "move": 1,
+                "capacity": 6,
+                "abilities": "none",
+                "prerequisites": "none"
+                },
+                {
+                "name": "Advanced Carrier II",
+                "cost": "3",
+                "combat": 9,
+                "move": 2,
+                "capacity": 8,
+                "abilities": "Sustain Damage",
+                "prerequisites": "2 Blue"
+                }
+            ],
             
             "flagship": {
                 "name": "Genesis",
@@ -16,7 +57,7 @@
                 "capacity": 12,
                 "abilities": ["Sustain Damage", "At the end of the status phase, place 1 infantry from your reinforcements in this system's space area."]
             },
-            "government": ["Federation, Expansionist"],
+            "government": "Federation, Expansionist",
             "quote": "Our enemies consider us children. They consider us weak. Show them. Show them what the children of Jord can do."
             
         }

@@ -13,6 +13,8 @@ export class AppComponent {
   factions: any = [];
 
 
+
+
   constructor(private _httpService: HttpService, private router: Router) { }
 
   ngOnInit() {
@@ -21,8 +23,6 @@ export class AppComponent {
       console.log("*****************")
       console.log(this.factions)
       console.log("*****************")
-
-
     });
   }
 }

@@ -1,16 +1,26 @@
 [
     {
+        "_id": 2,
         "faction": "The Barony of Letnev",
         "image": "https://preview.redd.it/sswzp67qdcc41.jpg?width=371&format=pjpg&auto=webp&s=de8333a4964ac8d4611c0f3a56fecf470b3ccbd4",
-        "abilities": {
-            "Munitions_Reserves": "At the start of each round of space combat, you may spend 2 trade goods;  you may re-roll any number of your dice during that combat round.",
-            "Armada": "The maximum number of non-fighter ships you can have in each system is equal to 2 more than the number of tokens in your fleet pool."
+        "abilities": [{
+            "name": "Munitions Reserves", 
+            "info": "At the start of each round of space combat, you may spend 2 trade goods;  you may re-roll any number of your dice during that combat round."},
+            {
+            "name": "Armada",
+            "info": "The maximum number of non-fighter ships you can have in each system is equal to 2 more than the number of tokens in your fleet pool."
+        }],
+        "promissory_note":{
+            "name": "War Funding",
+            "info": "At the start of a round of space combat: The Letnev player loses 2 trade goods. During this combat round, re-roll any number of your dice. Then, return this card to the Letnev player."
         },
-        "promissory_note":"At the start of a round of space combat: The Letnev player loses 2 trade goods. During this combat round, re-roll any number of your dice. Then, return this card to the Letnev player.",
-        "technologies": {
-            "L4_Disruptors": "During an invasion, units cannot use SPACE CANNON against your units. Requirements: Yellow",
-            "NonEuclideanShielding": "When 1 of your units uses SUSTAIN DAMAGE, cancel 2 hits instead of 1. Requirements: 2 Red"
-        },
+        "technologies": [{
+            "name": "L4 Disruptors", 
+            "info": "During an invasion, units cannot use SPACE CANNON against your units. Requirements: Yellow"},
+            {
+            "name": "Non Euclidean Shielding",
+            "info": "When 1 of your units uses SUSTAIN DAMAGE, cancel 2 hits instead of 1. Requirements: 2 Red"
+        }],
         "flagship": {
             "name": "Arc Secundus",
             "cost": 8,
@@ -19,7 +29,7 @@
             "capacity": 3,
             "abilities": ["Sustain Damage","Bombardment 5 (x3)","Other players' units in this system lose PLANETARY SHIELD.  At the start of each space combat round, repair this ship."]
         },
-        "government": ["Barony, Militaristic"],
+        "government": "Barony, Militaristic",
         "quote": "Hold your fire until the main fleet arrives. Our armada will blot out their sun- when they die, they will die in darkness!"
         
     }

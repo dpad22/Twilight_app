@@ -9,7 +9,7 @@ import { Router } from "@angular/router";
   styleUrls: ['./factions.component.scss']
 })
 export class FactionsComponent implements OnInit {
-factions: any = [];
+factions: any;
 
 
   constructor(private _httpService: HttpService, private router: Router) { }

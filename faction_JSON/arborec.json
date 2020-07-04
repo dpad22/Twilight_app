@@ -1,5 +1,6 @@
 [
     {
+        "_id": 1,
         "faction": "The Arborec",
         "image": "https://miro.medium.com/max/361/1*zTAqWIxzpC_Zde_9Y5B4FA.jpeg",
         "abilities": [{
@@ -38,7 +39,7 @@
             "capacity": 5,
             "abilities": ["Sustain Damage", "After you activate this system, you may produce up to 5 units in this system"]
         },
-        "government": ["Hivemind, Expansionist"],
+        "government": "Hivemind, Expansionist",
         "quote": "Do you hear, flesh-thing? The harmonies of the Arborec? Your golems of metal and noise and fire have deafened you to the symphony."
         
     }

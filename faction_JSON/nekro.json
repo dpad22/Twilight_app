@@ -1,17 +1,28 @@
 [
     {
+        "_id": 11,
         "faction": "The Nekro Virus",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSmXPPh5fV9g9cDyniImCnMH4DpAUbf7zp5qA&usqp=CAU",
-        "abilities": {
-            "Galactic_Threat": "You cannot vote on agendas.  Once per agenda phase, after an agenda is revealed, you may predict aloud the outcome of that agenda.  If your prediction is correct, gain 1 technology that is owned by a player who voted how you predicted.",
-            "Technological_Singularity": "Once per combat, after 1 of your opponent's units is destroyed, you may gain 1 technology that is owned by that player.",
-            "Propagation": "You cannot research technology.  When you would research a technology, gain 3 command tokens instead."
-        },
-        "promissory_note":"At the start of combat: Place this card face-up in your play area. While this card is in your play area, the Nekro player cannot use his TECHNOLOGICAL SINGULARITY faction ability against you. If you activate a system that contains 1 or more of the Nekro player's units, return this card to the Nekro player.",
-        "technologies": {
-            "Valefar_AssimilatorX": "When you would gain another players technology using 1 of your faction ability, you may place the 'X' assimilator token on a faction technology owned by that player instead.  While that token is on a technology, this card gains that technology's text.  You cannot place an assimilator token on technology that already has an assimilator token.",
-            "Valefar_AssimilatorY": "When you would gain another players technology using 1 of your faction ability, you may place the 'Y' assimilator token on a faction technology owned by that player instead.  While that token is on a technology, this card gains that technology's text.  You cannot place an assimilator token on technology that already has an assimilator token."
-        },
+        "abilities": [{
+            "name": "Galactic Threat",
+            "info": "You cannot vote on agendas.  Once per agenda phase, after an agenda is revealed, you may predict aloud the outcome of that agenda.  If your prediction is correct, gain 1 technology that is owned by a player who voted how you predicted."},
+            {
+            "name": "Technological Singularity",
+            "info": "Once per combat, after 1 of your opponent's units is destroyed, you may gain 1 technology that is owned by that player."},
+            {
+            "name": "Propagation",
+            "info": "You cannot research technology.  When you would research a technology, gain 3 command tokens instead."
+        }],
+        "promissory_note":{
+            "name": "Antivirus",
+            "info": "At the start of combat: Place this card face-up in your play area. While this card is in your play area, the Nekro player cannot use his TECHNOLOGICAL SINGULARITY faction ability against you. If you activate a system that contains 1 or more of the Nekro player's units, return this card to the Nekro player."},
+        "technologies": [{
+            "name": "Valefar Assimilator X",
+            "info": "When you would gain another players technology using 1 of your faction ability, you may place the 'X' assimilator token on a faction technology owned by that player instead.  While that token is on a technology, this card gains that technology's text.  You cannot place an assimilator token on technology that already has an assimilator token."},
+            {
+            "name": "Valefar Assimilator Y",
+            "info": "When you would gain another players technology using 1 of your faction ability, you may place the 'Y' assimilator token on a faction technology owned by that player instead.  While that token is on a technology, this card gains that technology's text.  You cannot place an assimilator token on technology that already has an assimilator token."
+        }],
         "flagship": {
             "name": "The Alastor",
             "cost": 8,
@@ -20,8 +31,7 @@
             "capacity": 3,
             "abilities": ["Sustain Damage", "At the start of a space combat, choose any number of your ground forces in this system to participate in that combat as if they were ships."]
         },
-        "government": ["...error, ...error"],
+        "government": "...error, ...error",
         "quote": "The final step of all craft. The gate to eternity. A transcendency to a state of being that can only be described as godhood"
-        
     }
 ]

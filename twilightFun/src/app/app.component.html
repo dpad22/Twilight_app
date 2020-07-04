@@ -22,7 +22,7 @@ integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9If
 </li>
   <ul *ngFor="let faction of factions">
       <li class="nav-item">
-          <a class="nav-link" [routerLink]="['factions/factions_id']">{{faction.faction}}</a>
+          <a class="nav-link" [routerLink]="['factions',faction._id]">{{faction.faction}}</a>
       </li>
   </ul>
   <li class="nav-item">

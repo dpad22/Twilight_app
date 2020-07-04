@@ -1,19 +1,25 @@
 <div class="col-sm-9" id="factions">
     <div class="container">
-        <h1 *ngIf="factionId">{{data.faction}}</h1>
-        <p>{{data | json}}</p>
+        <h1 *ngIf="factionData">{{factionData.faction}}</h1>
+        <!-- <p>{{factionData | json}}</p> -->
         <div class="row">
             <div class="col-sm-6">
-                <img src="{{factionData}}" alt="{{factionData.faction}} Image" width="350" height="400">
+                <img src="{{factionData.image}}" alt="{{factionData.faction}} Image" width="350" height="400">
             </div>
             <div class="col-sm-6">
                 <h5 class="h5_Header">Government Type</h5>
                 <ul>
                     <li>{{factionData.government}}</li>
                 </ul>
+
+                <div>
+                    <h5 class="h5_Header">Quote: </h5>
+                    <p>{{factionData.quote}}</p>
+                </div>
+
                 <h5 class="h5_Header">Technologies</h5>
-                <ul *ngFor="let tech of factionData">
-                    <li><span>{{factionData.tech.name}}: </span>{{factionData.tech.info}}</li>
+                <ul *ngFor="let tech of factionData.technologies">
+                    <li><span>{{tech.name}}: </span>{{tech.info}}</li>
                 </ul>
 
                 <h5 class="h5_Header">Promissory Note</h5>
@@ -22,8 +28,8 @@
                 </ul>
 
                 <h5 class="h5_Header">Faction Abilities</h5>
-                <ul *ngFor="let ability of factionData">
-                    <li><span>{{factionData.ability.name}}: </span>{{factionData.ability.info}}</li>
+                <ul *ngFor="let ability of factionData.abilities">
+                    <li><span>{{ability.name}}: </span>{{ability.info}}</li>
                 </ul>
 
             </div>
@@ -43,15 +49,18 @@
             
         </ul>
     </div>
-    <div *ngFor="let unit of factionData">
-        <h5 class="h5_Header">Special Unit: {{factionData.unit.name}}</h5>
+    <div *ngFor="let unit of factionData.unit_upgrades">
+        <h5 class="h5_Header">Special Unit: {{unit.name}}</h5>
         <ul>
-            <li><span>Cost:</span> {{factionData.unit.cost}}</li>
-            <li><span>Combat Roll:</span> {{factionData.unit.combat}}</li>
-            <li><span>Abilities:</span> {{factionData.unit.abilities}}</li>
-            <li><span>Pre-Reqs:</span> {{factionData.unit.prerequisites}}</li>
+            <li><span>Cost:</span> {{unit.cost}}</li>
+            <li><span>Combat Roll:</span> {{unit.combat}}</li>
+            <li><span>Abilities:</span> {{unit.abilities}}</li>
+            <li><span>Movement:</span> {{unit.move}}</li>
+            <li><span>Capacity:</span> {{unit.capacity}}</li>
+            <li><span>Pre-Reqs:</span> {{unit.prerequisites}}</li>
         </ul>
     </div>
+
     
 </div>
 

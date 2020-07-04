@@ -1,16 +1,25 @@
 {
   "name": "twilight",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.9.16"
-  }
+    "mongoose": "^5.9.21"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpad22/Twilight_app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dpad22/Twilight_app/issues"
+  },
+  "homepage": "https://github.com/dpad22/Twilight_app#readme",
+  "description": ""
 }

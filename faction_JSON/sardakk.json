@@ -1,10 +1,18 @@
 [
     {
+        "_id": 12,
         "faction": "The Sardakk N'orr",
         "image": "https://vignette.wikia.nocookie.net/twilight-imperium-worlds/images/0/07/Sardakk_N%27orr.PNG/revision/latest?cb=20181213070021",
-        "abilities": "Apply +1 to the result of each of your unit's combat rolls.",
-        "promissory_note":"At the start of an invasion combat: Apply +1 to the result of each of your unit's combat rolls during this combat.  If your opponent is the N'orr player, apply -1 to the result of each of his unit's combat rolls during this combat. Then, return this card to the N'orr player.",
-        "technologies": "After making combat rolls during a round of ground combat, if your opponent produced 1 or more hits, you produce 1 additional hit. Requirements: 2 Red",
+        "abilities": [{
+            "name": "Unrelenting",
+            "info": "Apply +1 to the result of each of your unit's combat rolls."}],
+        "promissory_note":{
+            "name": "Tekklar Legion",
+            "info": "At the start of an invasion combat: Apply +1 to the result of each of your unit's combat rolls during this combat.  If your opponent is the N'orr player, apply -1 to the result of each of his unit's combat rolls during this combat. Then, return this card to the N'orr player."},
+        "technologies": [{
+            "name": "Valkyrie Particle Weave",
+            "info": "After making combat rolls during a round of ground combat, if your opponent produced 1 or more hits, you produce 1 additional hit. Requirements: 2 Red"
+            }],
         "unit_upgrades":[
             {
             "name": "Exotrireme I",
@@ -21,7 +29,7 @@
             "combat": 5,
             "move": 2,
             "capacity": 1,
-            "abilities": ["Sustain damage, Bombardment 4 (x2). This unit cannot be destroyed by 'Direct Hit' action cards.  After a round of space combat, you may destroy this unit to destroy up to 2 ships in this system."],
+            "abilities": ["Sustain damage", "Bombardment 4 (x2). This unit cannot be destroyed by 'Direct Hit' action cards.  After a round of space combat, you may destroy this unit to destroy up to 2 ships in this system."],
             "prerequisites": "2 Blue, 1 Yellow"
             }
         ],
@@ -33,7 +41,7 @@
             "capacity": 3,
             "abilities": ["Sustain Damage", "Apply +1 to the result of each of your other ship's combat rolls in this system."]
         },
-        "government": ["Veiled Brood, Military"],
+        "government": "Veiled Brood, Military",
         "quote": "Fear is death. Most of you will die. The queen mother thanks you for your worthy sacrifice."
         
     }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, ActivatedRoute } from '@angular/router';
+import { Router, ActivatedRoute, Params } from '@angular/router';
 import { HttpService } from '../http.service';
 
 @Component({
@@ -12,6 +12,7 @@ factionData:any;
 id:any;
 factionId:any;
 faction:any;
+  currentURL: string;
 
 
   constructor(
@@ -21,8 +22,15 @@ faction:any;
   ) { }
 
   ngOnInit() {
-    this.factionId = this.route.snapshot.paramMap.get("id");
+    this.route.paramMap.subscribe(params => {
+      this.factionId = params.get("id")
+    });
     this.getOneFaction();
+
+    this.currentURL = this.router.url;
+    this.router.events.subscribe((val) => {
+      this.currentURL = this.router.url;
+    });
   }
 
   getOneFaction(){

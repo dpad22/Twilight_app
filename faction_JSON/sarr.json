@@ -1,13 +1,23 @@
 [
     {
+        "_id": 3,
         "faction": "The Clan of Saar",
         "image": "https://pbs.twimg.com/media/DTsauHxW4AEPZ0J.jpg",
-        "abilities": {
-            "Scavenge": "After you gain control of a planet, gain 1 trade good.",
-            "Nomadic": "You can score objectives even if you do not control the planets in your home system."
+        "abilities": [{
+            "name": "Scavenge",
+            "info": "After you gain control of a planet, gain 1 trade good."},
+            {
+            "name": "Nomadic",
+            "info": "You can score objectives even if you do not control the planets in your home system."
+        }],
+        "promissory_note":{
+            "name": "Ragh's Call",
+            "info": "After you commit 1 or more units to land on a planet: Remove all of the Saar player's ground forces from that planet and place them on a planet controlled by the Saar player. Then return this card to the Saar player."
         },
-        "promissory_note":"After you commit 1 or more units to land on a planet: Remove all of the Saar player's ground forces from that planet and place them on a planet controlled by the Saar player. Then return this card to the Saar player.",
-        "technologies": "Other players cannot activate asteroid fields that contain 1 or more of your ships. At the start of your turn during the action phase, you may produce 1 unit in a system that contains at least 1 of your units that has Production. Requirements: Blue",
+        "technologies": [{
+            "name": "Chaos Mapping",
+            "info": "Other players cannot activate asteroid fields that contain 1 or more of your ships. At the start of your turn during the action phase, you may produce 1 unit in a system that contains at least 1 of your units that has Production. Requirements: Blue"
+            }],
         "unit_upgrades":[
             {
             "name": "Floating Factory I",
@@ -32,7 +42,7 @@
             "capacity": 3,
             "abilities": ["Sustain Damage", "Anit-Fighter Barrage 6(x4)"]
         },
-        "government": ["Admiralty, Objective"],
+        "government": "Admiralty, Objective",
         "quote": "O Lisis, you whose fate is forever carved into the backs of the weary. Your spectre is all we see."
 
     }
