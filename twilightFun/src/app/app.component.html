@@ -13,21 +13,21 @@ integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9If
 
 <div class="col-sm-4" id="sideBar">
   <ul class="nav flex-column">
-  <li class="nav-item">
-      <a class="nav-link" href="/">About</a>
-  </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['companion']">Companion Table</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['factions']">Factions</a>
+    </li>
   </ul>
-  <li class="nav-item">
-    <a class="nav-link" [routerLink]="['factions']">Factions</a>
-</li>
   <ul *ngFor="let faction of factions">
       <li class="nav-item">
           <a class="nav-link" [routerLink]="['factions',faction._id]">{{faction.faction}}</a>
       </li>
   </ul>
-  <li class="nav-item">
-      <a class="nav-link" [routerLink]="['companion']">Companion Table</a>
-  </li>
 </div>
 
 

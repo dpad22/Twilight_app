@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, ActivatedRoute, Params } from '@angular/router';
+import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { HttpService } from '../http.service';
+import {switchMap} from 'rxjs/operators';
 
 @Component({
   selector: 'app-show',
@@ -10,9 +11,9 @@ import { HttpService } from '../http.service';
 export class ShowComponent implements OnInit {
 factionData:any;
 id:any;
-factionId:any;
+private factionId:String;
 faction:any;
-  currentURL: string;
+currentURL: string;
 
 
   constructor(
@@ -22,15 +23,11 @@ faction:any;
   ) { }
 
   ngOnInit() {
+
     this.route.paramMap.subscribe(params => {
       this.factionId = params.get("id")
-    });
-    this.getOneFaction();
-
-    this.currentURL = this.router.url;
-    this.router.events.subscribe((val) => {
-      this.currentURL = this.router.url;
-    });
+      this.getOneFaction();
+  });
   }
 
   getOneFaction(){
@@ -39,6 +36,7 @@ faction:any;
       this.factionData = data;
       console.log("-------show component---------")
       console.log(this.factionData)
+      console.log(this.factionId)
     })
   }
 }

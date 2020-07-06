@@ -8,21 +8,26 @@ import { HomeComponent } from './home/home.component';
 import { FactionsComponent } from './factions/factions.component';
 import { CompanionComponent } from './companion/companion.component';
 import { ShowComponent } from './show/show.component';
-
+import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
+import { FormsModule } from '@angular/forms'
 
 @NgModule({
   declarations: [
-    AppComponent,
     HomeComponent,
     FactionsComponent,
     CompanionComponent,
     ShowComponent,
+    AppComponent,
+
     
   ],
   imports: [
+    FormsModule,
     BrowserModule,
-    AppRoutingModule,
     HttpClientModule,
+    AppRoutingModule,
+    NgMultiSelectDropDownModule.forRoot()
+
   ],
   providers: [HttpService],
   bootstrap: [AppComponent]
