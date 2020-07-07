@@ -4,20 +4,32 @@ p span{
     color: gold;
 }
 
-.form-check{
-    display: inline;
+#h5{
+    text-align: center;
+    text-decoration: underline;
 }
 
-.fixedHead{
-    overflow-y: auto;
+
+.form-check{
+    display: inline;
 }
 
 .fixedHead thead th{
     position: sticky; top: 0;
 }
 
+.fixedHead{
+    overflow-y: auto;
+}
+
+td li{
+
+    width: 200px;
+}
+
 table{
     font-size: small;
+    
 }
 
 #factions{
@@ -26,6 +38,7 @@ table{
     margin-top: 50px;
     height: 1020px;
     overflow-y: scroll;
+    overflow-x: scroll;
     float: right;
     color: white;
     background: #0f0c29;  /* fallback for old browsers */

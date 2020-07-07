@@ -1,12 +1,14 @@
-<div class="col-sm-9" id="factions">
+<div class="col-md-9" id="factions">
     <h2>TI4 Companion</h2>
 <div>
-    <p>Factions to Display: </p>
-    <div *ngFor="let faction of factions" class="form-check">
-        <label class="form-check-label">
-            <input type="checkbox" class="checkbox" (click)="displayFaction(faction, $event)"> {{faction.faction}}
-        </label>
-    </div>
+    <h5 id="h5">Factions to Display </h5>
+    
+        <div *ngFor="let faction of factions" class="form-check">
+            <label class="form-check-label">
+                <input type="checkbox" class="checkbox" (click)="displayFaction(faction, $event)"> {{faction.faction}}
+            </label>
+        </div>
+
 </div>
 <table class="table table-dark">
     <thead>
@@ -43,7 +45,10 @@
                 </ul>
             </td>
             <td>
-                <p><span>{{faction.promissory_note.name}}:</span> {{faction.promissory_note.info}}</p>
+                <ul>
+                    <li><span>{{faction.promissory_note.name}}:</span> {{faction.promissory_note.info}}
+                    </li>
+                </ul>
             </td>
         </tr>
     </tbody>
