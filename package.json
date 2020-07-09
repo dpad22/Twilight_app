@@ -11,7 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.9.21"
+    "mongoose": "^5.9.21",
+    "typescript": "~2.3.3",
+    "@angular/cli": "1.4.9",
+    "@angular/compiler-cli": "^4.4.6"
   },
   "repository": {
     "type": "git",
@@ -21,5 +24,13 @@
     "url": "https://github.com/dpad22/Twilight_app/issues"
   },
   "homepage": "https://github.com/dpad22/Twilight_app#readme",
-  "description": ""
+  "description": "",
+
+  "heroku-postbuild": "ng build --prod",
+
+  "engines": {
+    "node": "13.11.0",
+    "npm": "6.14.5"
+  }
 }
+
