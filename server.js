@@ -8,9 +8,9 @@ mongoose.connect("mongodb://localhost/twilightApi", {userNewUrlParser:true})
 // settings
 
 
-app.use(express.static(__dirname + '/twilightfun/dist/twilightfun'));
+app.use(express.static(__dirname + '/twilight-fun/dist/twilight-fun'));
 app.get('/*',function(req,res){
-    res.sendFile(path.join(__dirname+'/dist/twilightfun/index.html'));
+    res.sendFile(path.join(__dirname+'/dist/twilight-fun/index.html'));
 });
 
 app.use(express.json())
