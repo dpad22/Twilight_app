@@ -15,4 +15,4 @@ app.use(express.urlencoded({extended:true}));
 require('./server/config/routes.js')(app);
 
 
-app.listen(1337, () => console.log("listening on port 1337. ProductApp!"));
+app.listen(process.env.PORT || 1337, () => console.log("listening on port 1337. Twilight App!"));
