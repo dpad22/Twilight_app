@@ -1,5 +1,5 @@
 {
-  "name": "twilight-fun",
+  "name": "twilightfun",
   "version": "0.0.0",
   "scripts": {
     "heroku-postbuild": "ng build --prod",
