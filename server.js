@@ -4,15 +4,17 @@ const mongoose = require("mongoose")
 const app = express()
 
 
-const uristring = process.env.MONGODB_URI || process.env.MONGOLAB_URI || "mongodb://localhost/twilightApi"
+const MONGO_BLACK_URI = process.env.MONGOLAB_BLACK_URI || "mongodb://localhost/twilightApi";
 
-mongoose.connect(uristring, function (err, res) {
-    if (err) {
-    console.log ('ERROR connecting to: ' + uristring + '. ' + err);
-    } else {
-    console.log ('Succeeded connected to: ' + uristring);
-    }
-});
+const options = {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false,
+    family: 4
+};
+
+mongoose.connect(MONGO_BLACK_URI, options)
 
 // mongoose.connect(MONGODB_URI, {useNewUrlParser:true, useUnifiedTopology: true})
 
