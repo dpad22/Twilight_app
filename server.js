@@ -1,11 +1,14 @@
-require("dotenv").config()
 const express = require("express")
 const mongoose = require("mongoose")
+const mongodb = require("mongodb")
+
+require("dotenv").config();
+
 
 const app = express()
 
 
-const MONGO_BLACK_URI = process.env.MONGOLAB_BLACK_URI || "mongodb://localhost/twilightApi";
+const MONGOLAB_BLACK_URI = process.env.MONGOLAB_BLACK_URI || "mongodb://localhost/twilightApi";
 
 const options = {
     useNewUrlParser: true,
@@ -15,7 +18,7 @@ const options = {
     family: 4
 };
 
-mongoose.connect(MONGO_BLACK_URI, options)
+mongoose.connect(MONGOLAB_BLACK_URI, options)
 
 // mongoose.connect(MONGODB_URI, {useNewUrlParser:true, useUnifiedTopology: true})
 
