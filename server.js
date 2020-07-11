@@ -4,9 +4,17 @@ const mongoose = require("mongoose")
 const app = express()
 
 
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/twilightApi"
+const uristring = process.env.MONGODB_URI || process.env.MONGOLAB_URI || "mongodb://localhost/twilightApi"
 
-mongoose.connect(MONGODB_URI, {useNewUrlParser:true, useUnifiedTopology: true})
+mongoose.connect(uristring, function (err, res) {
+    if (err) {
+    console.log ('ERROR connecting to: ' + uristring + '. ' + err);
+    } else {
+    console.log ('Succeeded connected to: ' + uristring);
+    }
+});
+
+// mongoose.connect(MONGODB_URI, {useNewUrlParser:true, useUnifiedTopology: true})
 
 
 app.use(express.static(__dirname + '/dist/'));
