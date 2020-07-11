@@ -9,7 +9,7 @@ const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/twilightApi"
 mongoose.connect(MONGODB_URI, {useNewUrlParser:true, useUnifiedTopology: true})
 
 
-app.use(express.static(__dirname + '/twilightFun/dist/'));
+app.use(express.static(__dirname + '/twilight-fun/dist/'));
 
 
 app.use(express.json())
