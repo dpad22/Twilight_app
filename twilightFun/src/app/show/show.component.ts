@@ -26,7 +26,7 @@ currentURL: string;
 
     this.route.paramMap.subscribe(params => {
       this.factionId = params.get("id")
-      this.getOneFaction();
+    this.getOneFaction();
   });
   }
 

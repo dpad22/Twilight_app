@@ -25,12 +25,9 @@
   },
   "homepage": "https://github.com/dpad22/Twilight_app#readme",
   "description": "",
-
   "heroku-postbuild": "ng build --prod",
-
   "engines": {
     "node": "13.11.0",
     "npm": "6.14.5"
   }
 }
-

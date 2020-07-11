@@ -10,7 +10,7 @@ module.exports = function(app){
     app.get("/factions/:id", faction.findFaction);
 
     app.all("*",(req,res,next)=> {
-        res.sendFile(path.resolve("./twilightFun/dist/twilightFun/index.html"))
+        res.sendFile(path.resolve("./twilightFun/dist/index.html"))
     });
 
 }
