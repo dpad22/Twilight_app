@@ -1,9 +1,5 @@
 const express = require("express")
 const mongoose = require("mongoose")
-const mongodb = require("mongodb")
-
-require("dotenv").config();
-
 
 const app = express()
 
@@ -13,9 +9,9 @@ const MONGOLAB_BLACK_URI = process.env.MONGOLAB_BLACK_URI || "mongodb://localhos
 const options = {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false,
-    family: 4
+    // useCreateIndex: true,
+    // useFindAndModify: false,
+    // family: 4
 };
 
 mongoose.connect(MONGOLAB_BLACK_URI, options)
