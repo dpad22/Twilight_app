@@ -4,13 +4,24 @@ p span{
     color: gold;
 }
 
+.row {
+    display: inline-block;
+    width: auto;
+    align-items: center;
+}
+
+#rightDiv{
+    margin: 0;
+}
+
+
 #factions{
+    display: inline-block;
     vertical-align: top;
-    padding-top: 20px;
+    width: auto;
     margin-top: 50px;
-    height: 1070px;
+    height: 1020px;
     overflow: scroll;
-    float: right;
     color: white;
     background: #0f0c29;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */

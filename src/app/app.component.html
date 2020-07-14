@@ -1,31 +1,34 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+
+
+
 <body id="override">
   
 
-<div class="jumbotron jumbotron-fluid">
+<div class="jumbotron">
   <div class="container-fluid">
     <h1 class="display-4">Twilight Imperium Companion</h1>
     <p class="lead">Find your TI4 faction info below!</p>
   </div>
 </div>
 
-<div class="col-md-4" id="sideBar">
+<div class="col-12 col-md-3 col-xl-2" id="sideBar">
   <ul class="nav flex-column">
     <li class="nav-item">
         <a class="nav-link" href="/">About</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" [routerLink]="['companion']">Companion Table</a>
+      <a class="nav-link" href="#factions" [routerLink]="['companion']">Companion Table</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" [routerLink]="['factions']">Factions</a>
+      <a class="nav-link" href="#factions" [routerLink]="['factions']">Factions</a>
     </li>
   </ul>
   <ul *ngFor="let faction of factions">
       <li class="nav-item">
-          <a class="nav-link" [routerLink]="['factions',faction._id]">{{faction.faction}}</a>
+          <a class="nav-link" href="#factions" [routerLink]="['factions',faction._id]">{{faction.faction}}</a>
       </li>
   </ul>
 </div>

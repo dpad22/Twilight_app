@@ -1,6 +1,5 @@
 #override {
     background-color: black;
-
 }
 
 .row{
@@ -10,7 +9,10 @@
 .jumbotron{
     background-image: url(https://img.wallpapersafari.com/desktop/1600/900/90/73/vgR97F.jpg);
     background-repeat: no-repeat;
+    height: auto;
     background-size: 100%;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
