@@ -1,5 +1,74 @@
+@media (min-width: 800px){
+    
+    .navbar-expand-custom{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .navbar-expand-custom .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar-expand-custom .navbar-nav  .nav-link{
+        color: rgb(220, 62, 241);
+        font-size: 16px;
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    .navbar-expand-custom .navbar-collapse {
+        display: flex!important;
+    }
+    .navbar-expand-custom .navbar-toggler {
+        display: none;
+    }
+
+.dropbtn{
+    color: rgb(220, 62, 241);
+    padding-top: 8px;
+    padding-left: 8px;
+    font-size: 16px;
+    border: none;
+
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content{
+    display: none;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.dropdown-content a:hover{background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;}
+
+.dropdown:hover .dropdown-content {display: inline-block;}
+
+a.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
 #override {
     background-color: black;
+}
+
+.navbar-toggler{
+    color: white;
 }
 
 .row{
@@ -10,7 +79,7 @@
     background-image: url(https://img.wallpapersafari.com/desktop/1600/900/90/73/vgR97F.jpg);
     background-repeat: no-repeat;
     height: auto;
-    background-size: 100%;
+    background-size: cover;
     padding-bottom: 0rem;
     margin-bottom: 0rem;
     color: white;
@@ -20,5 +89,77 @@
     display: inline-block;
     width: 300px;
     
+    }
 }
 
+@media(max-width: 800px){
+    .dropbtn{
+        color: rgb(220, 62, 241);
+        padding-top: 8px;
+        padding-left: 8px;
+        font-size: 16px;
+        border: none;
+    
+    }
+    .dropdown{
+        position: relative;
+        display: inline-block;
+    
+    }
+    
+    .dropdown-content{
+        display: none;
+        background: #0f0c29;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        min-width: 160px;
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    .dropdown-content a:hover{background: #0f0c29;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;}
+    
+    .dropdown:hover .dropdown-content {display: inline-block;}
+    
+    a.nav-link{
+        color: white;
+        text-decoration: none;
+    }
+    
+    #override {
+        background-color: black;
+    }
+    
+    .navbar-toggler{
+        color: white;
+    }
+    
+    .row{
+        width: 15%;
+    }
+    
+    .jumbotron{
+        background-image: url(https://img.wallpapersafari.com/desktop/1600/900/90/73/vgR97F.jpg);
+        background-repeat: no-repeat;
+        height: auto;
+        background-size: cover;
+        padding-bottom: 0rem;
+        margin-bottom: 0rem;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #sideBar{
+        display: inline-block;
+        width: 300px;
+        
+        }
+}
