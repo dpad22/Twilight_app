@@ -35,9 +35,9 @@ table{
 #factions{
     display: inline-block;
     vertical-align: top;
-    width: auto;
+    width: 100%;
     margin-top: 50px;
-    height: 1020px;
+    height: 100%;
     overflow-y: scroll;
     overflow-x: scroll;
     color: white;
@@ -66,4 +66,8 @@ li span{
 .h5_Header{
     font-weight: bold;
     color: royalblue;
+}
+
+.header_comp{
+    margin-left: 3%;
 }

@@ -1,59 +1,59 @@
 
-<div class="col-sm-9 col-12" id="factions">
-    <h2>TI4 Companion</h2>
-<div>
-    <h5 id="h5">Factions to Display </h5>
-    
-        <div *ngFor="let faction of factions" class="form-check">
-            <label class="form-check-label">
-                <input type="checkbox" class="checkbox" (click)="displayFaction(faction, $event)"> {{faction.faction}}
-            </label>
-        </div>
+<div id="factions">
+        <h2 class="header_comp">TI4 Companion</h2>
+    <div>
+        <h5 id="h5">Factions to Display </h5>
+        
+            <div *ngFor="let faction of factions" class="form-check">
+                <label class="form-check-label">
+                    <input type="checkbox" class="checkbox" (click)="displayFaction(faction, $event)"> {{faction.faction}}
+                </label>
+            </div>
 
-</div>
-<table class="table table-dark">
-    <thead>
-        <tr>
-            <th scope="col">Faction</th>
-            <th scope="col">Flagship</th>
-            <th scope="col">Abilities</th>
-            <th scope="col">Technologies</th>
-            <th scope="col">Promissory Note</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr *ngFor="let faction of selectedFactions">
-            <td>
-                <img class="mr-3" src="{{faction.image}}" alt="{{faction.faction}}" width="150" height="150">
-                <p>{{faction.faction}}</p>
-            </td>
-            <td>
-                <p><span>Flagship: </span>{{faction.flagship.name}}</p>
-                <ul>
-                    <li><span>Abilities: </span>{{faction.flagship.abilities}}</li>
-                    <li><span>Combat Roll: </span>{{faction.flagship.combat}}</li>
-                    <li><span>Move: </span>{{faction.flagship.move}}</li>
-                    <li><span>Capacity: </span>{{faction.flagship.capacity}}</li>
-                </ul>
-            </td>
-            <td>
-                <ul *ngFor="let ability of faction.abilities">
-                    <li><span>{{ability.name}}: </span>{{ability.info}}</li>
-                </ul>
-            <td>
-                <ul *ngFor="let tech of faction.technologies">
-                    <li><span>{{tech.name}}: </span>{{tech.info}}</li>
-                </ul>
-            </td>
-            <td>
-                <ul>
-                    <li><span>{{faction.promissory_note.name}}:</span> {{faction.promissory_note.info}}
-                    </li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
-</table>
+    </div>
+    <table class="table table-dark">
+        <thead>
+            <tr>
+                <th scope="col">Faction</th>
+                <th scope="col">Flagship</th>
+                <th scope="col">Abilities</th>
+                <th scope="col">Technologies</th>
+                <th scope="col">Promissory Note</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let faction of selectedFactions">
+                <td>
+                    <img class="mr-3" src="{{faction.image}}" alt="{{faction.faction}}" width="150" height="150">
+                    <p>{{faction.faction}}</p>
+                </td>
+                <td>
+                    <p><span>Flagship: </span>{{faction.flagship.name}}</p>
+                    <ul>
+                        <li><span>Abilities: </span>{{faction.flagship.abilities}}</li>
+                        <li><span>Combat Roll: </span>{{faction.flagship.combat}}</li>
+                        <li><span>Move: </span>{{faction.flagship.move}}</li>
+                        <li><span>Capacity: </span>{{faction.flagship.capacity}}</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul *ngFor="let ability of faction.abilities">
+                        <li><span>{{ability.name}}: </span>{{ability.info}}</li>
+                    </ul>
+                <td>
+                    <ul *ngFor="let tech of faction.technologies">
+                        <li><span>{{tech.name}}: </span>{{tech.info}}</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><span>{{faction.promissory_note.name}}:</span> {{faction.promissory_note.info}}
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 
 

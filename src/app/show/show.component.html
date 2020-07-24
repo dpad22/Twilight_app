@@ -1,68 +1,56 @@
-<div class="col-sm-9" id="factions">
-    <div class="container">
-        <h1 *ngIf="factionData">{{factionData.faction}}</h1>
-        <!-- <p>{{factionData | json}}</p> -->
-        <div class="row">
-            <!-- <div class="col-sm-4">
-                <img src="{{factionData.image}}" alt="{{factionData.faction}} Image" width="350" height="400">
-            </div> -->
-            <div class="col-sm-12" id="rightDiv">
-                <img src="{{factionData.image}}" alt="{{factionData.faction}} Image" width="350" height="400">
-                <h5 class="h5_Header">Government Type</h5>
-                <ul>
-                    <li>{{factionData.government}}</li>
-                </ul>
+<div id="factions">
+    <h1 class="header_factions" *ngIf="factionData">{{factionData.faction}}</h1>
+    <!-- <p>{{factionData | json}}</p> -->
+        <!-- <div class="col-sm-4">
+            <img src="{{factionData.image}}" alt="{{factionData.faction}} Image" width="350" height="400">
+        </div> -->
+        <div id="factionData">
+            <img src="{{factionData.image}}" alt="{{factionData.faction}} Image" width="350" height="400">
+            <h5 class="h5_Header">Government Type</h5>
+            <ul>
+                <li>{{factionData.government}}</li>
+            </ul>
 
-                <div>
-                    <h5 class="h5_Header">Quote: </h5>
-                    <p>{{factionData.quote}}</p>
-                </div>
-
-                <h5 class="h5_Header">Technologies</h5>
-                <ul *ngFor="let tech of factionData.technologies">
-                    <li><span>{{tech.name}}: </span>{{tech.info}}</li>
-                </ul>
-
-                <h5 class="h5_Header">Promissory Note</h5>
-                <ul>
-                    <li><span>{{factionData.promissory_note.name}}: </span>{{factionData.promissory_note.info}}</li>
-                </ul>
-
-                <h5 class="h5_Header">Faction Abilities</h5>
-                <ul *ngFor="let ability of factionData.abilities">
-                    <li><span>{{ability.name}}: </span>{{ability.info}}</li>
-                </ul>
-
+            <div>
+                <h5 class="h5_Header">Quote: </h5>
+                <p>{{factionData.quote}}</p>
             </div>
-        </div>
 
+            <h5 class="h5_Header">Technologies</h5>
+            <ul *ngFor="let tech of factionData.technologies">
+                <li><span>{{tech.name}}: </span>{{tech.info}}</li>
+            </ul>
 
-    </div>
-    <hr style="color: white;">
-    <div>
-        <h5 class="h5_Header">Flagship: {{factionData.flagship.name}}</h5>
-        <ul>
-            <li><span>Cost:</span> {{factionData.flagship.cost}}</li>
-            <li><span>Combat Roll:</span> {{factionData.flagship.combat}}</li>
-            <li><span>Move:</span> {{factionData.flagship.move}}</li>
-            <li><span>Capacity:</span> {{factionData.flagship.capacity}}</li>
-            <li><span>Abilities:</span> {{factionData.flagship.abilities}}</li>
-            
-        </ul>
-    </div>
-    <div *ngFor="let unit of factionData.unit_upgrades">
-        <h5 class="h5_Header">Special Unit: {{unit.name}}</h5>
-        <ul>
-            <li><span>Cost:</span> {{unit.cost}}</li>
-            <li><span>Combat Roll:</span> {{unit.combat}}</li>
-            <li><span>Abilities:</span> {{unit.abilities}}</li>
-            <li><span>Movement:</span> {{unit.move}}</li>
-            <li><span>Capacity:</span> {{unit.capacity}}</li>
-            <li><span>Pre-Reqs:</span> {{unit.prerequisites}}</li>
-        </ul>
-    </div>
+            <h5 class="h5_Header">Promissory Note</h5>
+            <ul>
+                <li><span>{{factionData.promissory_note.name}}: </span>{{factionData.promissory_note.info}}</li>
+            </ul>
 
-    
+            <h5 class="h5_Header">Faction Abilities</h5>
+            <ul *ngFor="let ability of factionData.abilities">
+                <li><span>{{ability.name}}: </span>{{ability.info}}</li>
+            </ul>
+
+            <h5 class="h5_Header">Flagship: {{factionData.flagship.name}}</h5>
+                <ul>
+                    <li><span>Cost:</span> {{factionData.flagship.cost}}</li>
+                    <li><span>Combat Roll:</span> {{factionData.flagship.combat}}</li>
+                    <li><span>Move:</span> {{factionData.flagship.move}}</li>
+                    <li><span>Capacity:</span> {{factionData.flagship.capacity}}</li>
+                    <li><span>Abilities:</span> {{factionData.flagship.abilities}}</li>
+                </ul>
+                <div *ngFor="let unit of factionData.unit_upgrades">
+                    <h5 class="h5_Header">Special Unit: {{unit.name}}</h5>
+                    <ul>
+                        <li><span>Cost:</span> {{unit.cost}}</li>
+                        <li><span>Combat Roll:</span> {{unit.combat}}</li>
+                        <li><span>Abilities:</span> {{unit.abilities}}</li>
+                        <li><span>Movement:</span> {{unit.move}}</li>
+                        <li><span>Capacity:</span> {{unit.capacity}}</li>
+                        <li><span>Pre-Reqs:</span> {{unit.prerequisites}}</li>
+                    </ul>
+                </div>
+    </div>
 </div>
 
 
