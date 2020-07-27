@@ -16,10 +16,11 @@ p span{
 #factions{
     display: inline-block;
     vertical-align: top;
-    width: auto;
+    width: 100%;
     margin-top: 50px;
-    height: 1020px;
-    overflow: scroll;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: scroll;
     color: white;
     background: #0f0c29;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
